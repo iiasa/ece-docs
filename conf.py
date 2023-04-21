@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "python-stub"
-copyright = "2021 IIASA"
-author = "Daniel Huppmann"
+project = "ece-docs"
+copyright = "2023 IIASA"
+author = "IIASA ECE Scenario Services Team"
 
 
 # -- General configuration ---------------------------------------------------
