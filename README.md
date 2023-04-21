@@ -9,13 +9,11 @@ This is a [Sphinx](http://sphinx-doc.org/) project for a landing page of
 software project documentation developed by the Energy, Climate, and Environment Program (ECE).
 The website is deployed at https://docs.ece.iiasa.ac.at/ hosted by ReadTheDocs.
 
-## Installation
+## ## Building the docs
 
-Install the package including the requirements for building the docs.
+Install the requirements for building the docs.
 
-    pip install --editable .[doc]
-
-## Building the docs
+    pip install -r requirements.txt
 
 Run Sphinx to build the docs!
 
