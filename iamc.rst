@@ -16,6 +16,15 @@ Previous high-level use cases include reports by the *Intergovernmental Panel
 on Climate Change* (`IPCC`_) and model comparison exercises
 within the *Energy Modeling Forum* (`EMF`_) hosted by Stanford University.
 
+Refer to https://data.ece.iiasa.ac.at/ for a selected list of previous projects
+using the IAMC data format.
+
+.. _`IAMC`: http://iamconsortium.org/
+
+.. _`IPCC`: https://www.ipcc.ch
+
+.. _`EMF`: https://emf.stanford.edu
+
 An illustrative example
 -----------------------
 
@@ -27,15 +36,32 @@ following the IAMC format from the Horizon 2020 `CD-LINKS`_ project.
    Illustrative example of IAMC-format timeseries data |br|
    via the `IAMC 1.5°C Scenario Explorer`_
 
+.. _`CD-LINKS`: https://www.cd-links.org
+
 .. _`IAMC 1.5°C Scenario Explorer`: https://data.ece.iiasa.ac.at/iamc-1.5c-explorer
 
-Refer to https://data.ece.iiasa.ac.at/ for a selected list of previous projects
-using the IAMC data format.
+Project "templates"
+-------------------
 
-.. _`IAMC`: http://iamconsortium.org/
+Each project using the IAMC timeseries data format defines a list of "variables" and
+regions for comparison and scenario analysis, commonly known as a "variable template".
 
-.. _`IPCC`: https://www.ipcc.ch
+The IAM community is developing a shared resource of variable and region definitions.
+The aim is to provide a central location to facilitate reuse of definitions and
+mappings across projects.
 
-.. _`EMF`: https://emf.stanford.edu
+Visit https://github.com/IAMconsortium/common-definitions for more information.
 
-.. _`CD-LINKS`: https://www.cd-links.org
+Related software packages
+-------------------------
+
+The *Scenario Services & Scientific Software team* at the IIASA Energy, Climate, and
+Environment program (ECE) is developing several open-source Python packages
+to work with the IAMC timeseries data format.
+
+- **pyam**: Analysis and visualization of integrated-assessment & macro-energy scenarios
+  |br| https://pyam-iamc.readthedocs.io
+- **nomenclature**: Management of IAMC-format project definitions |br|
+  https://nomenclature-iamc.readthedocs.io
+
+Visit https://software.ece.iiasa.ac.at for more information.
