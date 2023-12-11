@@ -1,4 +1,4 @@
-# An overview page for software documentation 
+# Documentation of data formats and software packages 
 
 Copyright (c) 2023 IIASA; published under the [MIT License](LICENSE)
 

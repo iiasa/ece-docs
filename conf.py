@@ -59,3 +59,11 @@ html_static_path = ["_static"]
 html_css_files = [
     "iiasa.css",
 ]
+
+# prolog for all rst files
+rst_prolog = """
+.. |br| raw:: html
+
+   <br>
+
+"""
