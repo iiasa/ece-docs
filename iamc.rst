@@ -16,7 +16,7 @@ Previous high-level use cases include reports by the *Intergovernmental Panel
 on Climate Change* (`IPCC`_) and model comparison exercises
 within the *Energy Modeling Forum* (`EMF`_) hosted by Stanford University.
 
-Refer to https://data.ece.iiasa.ac.at/ for a selected list of previous projects
+Refer to https://data.ece.iiasa.ac.at/ for a selected list of projects
 using the IAMC data format.
 
 .. _`IAMC`: http://iamconsortium.org/
@@ -30,6 +30,10 @@ An illustrative example
 
 The table below shows a typical example of integrated-assessment scenario data
 following the IAMC format from the Horizon 2020 `CD-LINKS`_ project.
+
+The scenario data is usually saved as *xlsx* or *csv* files in wide format
+(years as columns), but other types are also possible (e.g., via
+the `pyam package <https://pyam-iamc.readthedocs.io/en/stable/api/io.html>`_).
 
 .. figure:: _static/iamc-example.png
 
