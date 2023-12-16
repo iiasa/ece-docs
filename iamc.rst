@@ -37,8 +37,8 @@ the `pyam package <https://pyam-iamc.readthedocs.io/en/stable/api/io.html>`_).
 
 .. figure:: _static/iamc-example.png
 
-   Illustrative example of IAMC-format timeseries data |br|
-   via the `IAMC 1.5°C Scenario Explorer`_
+   Illustrative example of IAMC-format timeseries data
+   from the `IAMC 1.5°C Scenario Explorer`_
 
 .. _`CD-LINKS`: https://www.cd-links.org
 
@@ -55,6 +55,15 @@ The aim is to provide a central location to facilitate reuse of definitions and
 mappings across projects.
 
 Visit https://github.com/IAMconsortium/common-definitions for more information.
+
+Variable & region naming guidance
+---------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   iamc/variable
+   iamc/region
 
 Related software packages
 -------------------------
