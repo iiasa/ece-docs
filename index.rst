@@ -22,7 +22,7 @@ tabular timeseries format to exchange scenario data related to energy systems mo
 land-use change, demand sectors, and economic indicators in the context of
 climate change mitigation pathways and the the Sustainable Development Goals (SDGs).
 
-Read more about the `IAMC timeseries scenario format <iamc.html>`_...
+Read more about the :ref:`iamc-format`...
 
 .. _`IAMC`: http://iamconsortium.org/
 

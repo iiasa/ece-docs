@@ -1,3 +1,5 @@
+.. _iamc-format:
+
 The IAMC timeseries data format
 ===============================
 
