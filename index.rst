@@ -26,10 +26,10 @@ Read more about the `IAMC timeseries scenario format <iamc.html>`_...
 
 .. _`IAMC`: http://iamconsortium.org/
 
-Open-source software packages
------------------------------
+Scenario databases hosted by IIASA
+----------------------------------
 
-Coming soon...
+
 
 Table of Contents
 -----------------
@@ -38,6 +38,7 @@ Table of Contents
    :maxdepth: 2
 
    iamc
+   software
 
 License & Source
 ----------------
