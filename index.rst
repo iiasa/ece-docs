@@ -29,7 +29,10 @@ Read more about the :ref:`iamc-format`...
 Scenario databases hosted by IIASA
 ----------------------------------
 
+The *Energy, Climate and Environment* program (ECE) at IIASA is hosting many databases
+for the community to facilitate scenario analysis, model comparison and dissemination.
 
+Read more about the :ref:`scenario-databases`...
 
 Table of Contents
 -----------------
@@ -38,6 +41,7 @@ Table of Contents
    :maxdepth: 2
 
    iamc
+   scenario-databases
    software
 
 License & Source
