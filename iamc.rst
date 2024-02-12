@@ -1,3 +1,5 @@
+.. _iamc-format:
+
 The IAMC timeseries data format
 ===============================
 
@@ -68,13 +70,4 @@ Variable & region naming guidance
 Related software packages
 -------------------------
 
-The *Scenario Services & Scientific Software team* at the IIASA Energy, Climate, and
-Environment program (ECE) is developing several open-source Python packages
-to work with the IAMC timeseries data format.
-
-- **pyam**: Analysis and visualization of integrated-assessment & macro-energy scenarios
-  |br| https://pyam-iamc.readthedocs.io
-- **nomenclature**: Management of IAMC-format project definitions |br|
-  https://nomenclature-iamc.readthedocs.io
-
-Visit https://software.ece.iiasa.ac.at for more information.
+Read more about related :ref:`software`.
