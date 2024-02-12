@@ -14,8 +14,9 @@ you have to "register" your model. A model registration requires three specifica
 
 * A model name including a *version number*, preferably using
   `semantic versioning <https://semver.org>`_
-* | A list of region names as they should appear in the processed scenario data,
-  | i.e., after processing when submitting (uploading) to an IIASA database instance
+* A list or mapping of region names as they will be submitted (uploaded) to an IIASA
+  database instance by the modeling team, and how the region names should appear
+  in the processed scenario data
 * A model mapping to perform region aggregation from *native_regions* to
   *common_regions* and renaming of model native regions (optional)
 
