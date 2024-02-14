@@ -34,6 +34,15 @@ for the community to facilitate scenario analysis, model comparison and dissemin
 
 Read more about the :ref:`scenario-databases`...
 
+Open-source software packages
+-----------------------------
+
+The *Scenario Services & Scientific Software team* in the Energy, Climate, and
+Environment program (ECE) at IIASA is developing several open-source Python packages
+for analysis, processing and management of scenario data in the IAMC format.
+
+Read more about the :ref:`software`...
+
 Table of Contents
 -----------------
 
