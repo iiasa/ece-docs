@@ -1,5 +1,5 @@
-Documentation
-=============
+Scenario Services & Scientific Software
+=======================================
 
 This page is released under a `Creative Commons CC0 1.0 License
 <https://github.com/iiasa/ece-docs/blob/main/LICENSE>`_ |cc| |zero|.
