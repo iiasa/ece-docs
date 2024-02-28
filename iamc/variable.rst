@@ -26,11 +26,12 @@ A variable name should adhere to the following conventions:
 *  Do not use abbreviations of statistical operations (*min*, *max*,
    *avg*) but always spell out the term.
 *  All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
-*  Add hierarchy levels where it might be useful in the future, e.g.,
-   use *Electric Vehicle|Plugin-Hybrid* instead of *Plugin-Hybrid
-   Electric Vehicle*.
-*  Do not include words like *Level* or *Quantity* in the variable,
-   because this should be clear from the context or unit.
+*  If necessary to add a method or operation-identifier (e.g., Share, Per-capita)
+   to a variable name, add it in square brackets, e.g.,
+
+   .. code::
+
+      Population|Urban [Share]
 
 Units
 -----
