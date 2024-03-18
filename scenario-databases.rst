@@ -6,16 +6,24 @@ Scenario databases hosted by IIASA
 The *Energy, Climate and Environment* program (ECE) at IIASA is hosting many databases
 for the community to facilitate scenario analysis, model comparison and dissemination.
 
-Permission management
----------------------
+Access and permission management
+--------------------------------
 
 There are public and project-internal (private) databases. Access to project-internal
-instances is managed via the *Scenario Services Manager* at
-https://manager.ece.iiasa.ac.at. To participate in a project, please create an account
-and send the username to the project managers by email.
+instances is managed via the `Scenario Services Manager`_.
+To participate in a project, please create an account and send the username
+to the project managers by email.
 
 You can see all public and private database instances to which you have access,
-including your model view/submit/edit permissions, in the *Services* tab of the manager.
+including your view/submit/edit permissions, in the *Services* tab of the manager.
+
+.. figure:: _static/ece-manager-screenshot.png
+   :width: 600px
+   :align: left
+
+   Screenshot of the "Overview" page of the `Scenario Services Manager`_
+
+.. _`Scenario Services Manager`: https://manager.ece.iiasa.ac.at
 
 Model registration
 ------------------
