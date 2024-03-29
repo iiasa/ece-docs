@@ -19,7 +19,6 @@ including your view/submit/edit permissions, in the *Services* tab of the manage
 
 .. figure:: _static/ece-manager-screenshot.png
    :width: 600px
-   :align: left
 
    Screenshot of the "Overview" page of the `Scenario Services Manager`_
 
