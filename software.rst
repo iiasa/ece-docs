@@ -12,6 +12,10 @@ Scenario analysis: **pyam**
 
 Analysis and visualization of integrated-assessment & macro-energy scenarios
 
+.. figure:: https://github.com/IAMconsortium/pyam/blob/main/docs/logos/pyam-header.png?raw=true
+   :target: https://pyam-iamc.readthedocs.io
+   :width: 600px
+
 https://pyam-iamc.readthedocs.io
 
 Scenario processing: **nomenclature**
