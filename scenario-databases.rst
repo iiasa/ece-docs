@@ -60,8 +60,8 @@ Scenario version management
 ---------------------------
 
 When submitting a scenario (a.k.a. "run") to an IIASA database instance with an already
-existing model-scenario name, the database will save the new submission as a new version
-of that run. The **version number** is assigned automatically and the new version
+existing model-scenario combination, the database will save the new submission as a new version
+of that run. The **version number** is incremented automatically and the new version
 will be automatically set as **default version** for that model-scenario name.
 
 To select other (non-default) versions, you can use the "Switch to Advanced View" button
