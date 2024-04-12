@@ -14,11 +14,12 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import datetime
 
 # -- Project information -----------------------------------------------------
 
 project = "ece-docs"
-copyright = "2023 IIASA"
+copyright = f"2023-{datetime.datetime.now().year} IIASA"
 author = "IIASA ECE Scenario Services Team"
 
 
