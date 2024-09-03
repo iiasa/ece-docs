@@ -8,7 +8,8 @@ Climate, and Environment program (ECE) has developed standardized naming convent
 guidelines and tools to facilitate consistency and reusability in scenario analysis.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    standards/variables
+   standards/regions
    standards/countries

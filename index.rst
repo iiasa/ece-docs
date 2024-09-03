@@ -37,8 +37,8 @@ Read more about the :ref:`scenario-databases`...
 Standardized naming conventions and guidelines
 ----------------------------------------------
 
-Having agreed standatds and guidelines is crucial for consistency and reusability in
-scenario analysis.
+Having agreed standards and guidelines on naming conventions is crucial for consistency
+and reusability in scenario analysis.
 
 Read more about the :ref:`standards`...
 
