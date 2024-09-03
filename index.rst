@@ -34,6 +34,14 @@ for the community to facilitate scenario analysis, model comparison and dissemin
 
 Read more about the :ref:`scenario-databases`...
 
+Standardized naming conventions and guidelines
+----------------------------------------------
+
+Having agreed standatds and guidelines is crucial for consistency and reusability in
+scenario analysis.
+
+Read more about the :ref:`standards`...
+
 Open-source software packages
 -----------------------------
 
