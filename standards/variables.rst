@@ -1,4 +1,4 @@
-.. _variable:
+.. _variables:
 
 Variables in the IAMC format
 ============================

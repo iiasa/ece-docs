@@ -49,7 +49,7 @@ the `pyam package <https://pyam-iamc.readthedocs.io/en/stable/api/io.html>`_).
 Naming conventions and standards
 --------------------------------
 
-Read more about guidelines for :ref:`variables` and :ref:`regions`.
+Read more about guidelines and naming conventions for :ref:`variables` and :ref:`regions`.
 
 Project "templates"
 -------------------

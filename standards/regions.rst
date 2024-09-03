@@ -17,7 +17,7 @@ Naming conventions for model regions
 ------------------------------------
 
 In contrast to common regions used for comparison of scenarios across models,
-each model has a *native region* resolution.
+each model has a **native region** resolution.
 
 Models with a coarse spatial resolution should add a model-specific identifier to the
 native model regions (e.g., `MESSAGEix-GLOBIOM 1.1|North America`) to avoid confusion
