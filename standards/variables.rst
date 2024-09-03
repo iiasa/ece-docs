@@ -1,5 +1,7 @@
-The *variable* column
-=====================
+.. _variable:
+
+The variable in the IAMC format
+===============================
 
 The 'variable' column of the IAMC format describes the type of information represented
 in the specific timeseries. The variable name implements a "semi-hierarchical" structure

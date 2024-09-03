@@ -64,7 +64,6 @@ Variable & region naming guidance
 .. toctree::
    :maxdepth: 2
 
-   iamc/variable
    iamc/region
 
 Related software packages

@@ -51,6 +51,7 @@ Table of Contents
 
    iamc
    scenario-databases
+   standards
    software
 
 License & Source
