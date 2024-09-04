@@ -6,20 +6,21 @@ A common list of countries
 Having a standardized list of country names is an important prerequisite for region
 definitions, scenario analysis and model comparison.
 
-The :class:`nomenclature` package (`read the docs`_) builds on the :class:`pycountry`
-package to provide a standardized list if country names based on the
+The :py:mod:`nomenclature` package (`read the docs`_) builds on the :py:mod:`pycountry`
+package to provide a standardized list of country names based on the
 `ISO 3166-1 standard`_.
 
 For consistency with established conventions in the modelling community, several country
 names are shortened compared to ISO 3166-1, e.g. from "Bolivia, Plurinational State of"
-to "Bolivia". Also, "Kosovo" is added (with *alpha_3* code "KOS", following the
+to "Bolivia".
+Also, "Kosovo" is added (with *alpha_3* code "KOS", following the
 `IOC <https://olympics.com/ioc/kosovo>`_), even though it is not a universally
 recognized state and not oficially included in ISO 3166-1.
 See the full list of changes on GitHub_.
 
 You can access the list of countries via the model-registration `Excel template`_.
 
-The :class:`nomenclature` package also provides utility functions to work with the
+The :py:mod:`nomenclature` package also provides utility functions to work with the
 country-names and easily translate between country names and alpha-3/alpha-2 codes
 (also known as ISO3 and ISO2 codes). Here is an example:
 
