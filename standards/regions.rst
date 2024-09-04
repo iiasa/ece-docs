@@ -1,7 +1,7 @@
 .. _regions:
 
-Regions in model-comparison projects
-====================================
+Common and native regions
+=========================
 
 Common regions
 --------------
@@ -13,8 +13,8 @@ A widely used example are the `R5, R9 and R10 regions`_.
 
 .. _`R5, R9 and R10 regions`: https://github.com/IAMconsortium/common-definitions/blob/main/definitions/region/common.yaml
 
-Naming conventions for model regions
-------------------------------------
+Native model regions
+--------------------
 
 In contrast to common regions used for comparison of scenarios across models,
 each model has a **native region** resolution.
