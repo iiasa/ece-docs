@@ -45,4 +45,5 @@ Units
 
 The **unit** associated with a variable should be compatible with the
 `iam-units <https://github.com/iamconsortium/units>`_ package.
-Alternatively, a variable can be *dimensionless*, i.e., not have a unit.
+Alternatively, a variable can be *dimensionless*, i.e., not have a unit. An example of
+such a dimensionless variable are indices, e.g., the *Human Development Index*.
