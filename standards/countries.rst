@@ -12,13 +12,14 @@ package to provide a standardized list of country names based on the
 
 For consistency with established conventions in the modelling community, several country
 names are shortened compared to ISO 3166-1, e.g. from "Bolivia, Plurinational State of"
-to "Bolivia".
+to "Bolivia". See the full list of changes on GitHub_.
+
 Also, "Kosovo" is added (with *alpha_3* code "KOS", following the
 `IOC <https://olympics.com/ioc/kosovo>`_), even though it is not a universally
 recognized state and not oficially included in ISO 3166-1.
-See the full list of changes on GitHub_.
 
-You can access the list of countries via the model-registration `Excel template`_.
+You can access the list of countries via the model-registration `Excel template`_
+or via the Python API.
 
 The :py:mod:`nomenclature` package also provides utility functions to work with the
 country-names and easily translate between country names and alpha-3/alpha-2 codes
