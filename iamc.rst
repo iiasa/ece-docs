@@ -46,6 +46,11 @@ the `pyam package <https://pyam-iamc.readthedocs.io/en/stable/api/io.html>`_).
 
 .. _`IAMC 1.5°C Scenario Explorer`: https://data.ece.iiasa.ac.at/iamc-1.5c-explorer
 
+Naming conventions and standards
+--------------------------------
+
+Read more about guidelines and naming conventions for :ref:`variables` and :ref:`regions`.
+
 Project "templates"
 -------------------
 
@@ -57,15 +62,6 @@ The aim is to provide a central location to facilitate reuse of definitions and
 mappings across projects.
 
 Visit https://github.com/IAMconsortium/common-definitions for more information.
-
-Variable & region naming guidance
----------------------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   iamc/variable
-   iamc/region
 
 Related software packages
 -------------------------

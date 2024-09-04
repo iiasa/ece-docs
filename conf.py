@@ -83,4 +83,8 @@ rst_prolog = """
 
    <br>
 
+.. |ScSe team| raw:: html
+
+   <a href="https://software.ece.iiasa.ac.at">Scenario Services and Scientific Software team</a> 
+   in the <em>Energy, Climate, and Environment</em> program (ECE) at IIASA
 """

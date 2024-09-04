@@ -1,5 +1,7 @@
-The *variable* column
-=====================
+.. _variables:
+
+Variables in the IAMC format
+============================
 
 The 'variable' column of the IAMC format describes the type of information represented
 in the specific timeseries. The variable name implements a "semi-hierarchical" structure
@@ -41,6 +43,7 @@ A variable name should adhere to the following conventions:
 Units
 -----
 
-The **unit** attribute is **required** and its value should be compatible with the
-`iam-units <https://github.com/iamconsortium/units>`_ package. Alternatively,
-a variable can be *dimensionless*, i.e., not have a unit.
+The **unit** associated with a variable should be compatible with the
+`iam-units <https://github.com/iamconsortium/units>`_ package.
+Alternatively, a variable can be *dimensionless*, i.e., not have a unit. An example of
+such a dimensionless variable are indices, e.g., the *Human Development Index*.

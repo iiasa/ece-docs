@@ -34,12 +34,19 @@ for the community to facilitate scenario analysis, model comparison and dissemin
 
 Read more about the :ref:`scenario-databases`...
 
+Standardized naming conventions and guidelines
+----------------------------------------------
+
+Having agreed standards and guidelines on naming conventions is crucial for consistency
+and reusability in scenario analysis.
+
+Read more about the :ref:`standards`...
+
 Open-source software packages
 -----------------------------
 
-The *Scenario Services & Scientific Software team* in the Energy, Climate, and
-Environment program (ECE) at IIASA is developing several open-source Python packages
-for analysis, processing and management of scenario data in the IAMC format.
+The |ScSe team| is developing several open-source Python packages for analysis,
+processing and management of scenario data in the IAMC format.
 
 Read more about the :ref:`software`...
 
@@ -51,6 +58,7 @@ Table of Contents
 
    iamc
    scenario-databases
+   standards
    software
 
 License & Source
@@ -59,6 +67,6 @@ License & Source
 | The source code of this `Sphinx <http://sphinx-doc.org/>`_ project is available
   at https://github.com/iiasa/ece-docs under a
   `Creative Commons CC0 1.0 License <https://github.com/iiasa/ece-docs/blob/main/LICENSE>`_.
-  The project is maintained by the *Scenario Services & Scientific Software* research theme
-  at the IIASA Energy, Climate, and Environment program.
+  The project is maintained by the **Scenario Services & Scientific Software** team
+  in the *Energy, Climate, and Environment* program (ECE) at IIASA.
 | Visit https://software.ece.iiasa.ac.at for more information.

@@ -3,9 +3,8 @@
 Open-source software packages
 =============================
 
-The *Scenario Services & Scientific Software team* in the Energy, Climate, and
-Environment program (ECE) at IIASA is developing several open-source Python packages
-to work with scenario data in :ref:`iamc-format`.
+The |ScSe team| is developing several open-source Python packages to work with scenario
+data in :ref:`iamc-format`.
 
 Scenario analysis: **pyam**
 ---------------------------
