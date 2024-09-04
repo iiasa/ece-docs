@@ -1,7 +1,7 @@
 .. _countries:
 
-A common list of countries
-==========================
+A common list of country names
+==============================
 
 Having a standardized list of country names is an important prerequisite for region
 definitions, scenario analysis and model comparison.

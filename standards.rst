@@ -3,8 +3,7 @@
 Standardized naming conventions
 ===============================
 
-The IAMC community and the *Scenario Services & Scientific Software team* in the Energy,
-Climate, and Environment program (ECE) has developed standardized naming conventions,
+The IAMC community and the |ScSe team| has developed standardized naming conventions,
 guidelines and tools to facilitate consistency and reusability in scenario analysis.
 
 .. toctree::
