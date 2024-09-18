@@ -12,3 +12,4 @@ guidelines and tools to facilitate consistency and reusability in scenario analy
    standards/variables
    standards/regions
    standards/countries
+   standards/nuts
