@@ -4,10 +4,10 @@ NUTS classification
 ===================
 
 The :py:mod:`nomenclature` (`read the docs`_) package makes use of the :py:mod:`pysquirrel` package
-(`link <https://github.com/iiasa/pysquirrel>`_) to provide a utility for region
+(:ref:`more information here <pysquirrel>`) to provide a utility for region
 names based on the `NUTS classification <https://ec.europa.eu/eurostat/web/nuts>`_. 
 
-This feature allows users to define an agreed list of territorial units with 
+This feature allows users to easily import the NUTS regions which are territorial units with 
 multiple levels of resolution, adding functionality to facilitate scenario 
 analysis and model comparison.
 
