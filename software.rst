@@ -31,3 +31,15 @@ Data warehouse for high-powered scenario analysis in the domain of
 integrated assessment of climate change and energy systems modeling
 
 https://docs.ece.iiasa.ac.at/projects/ixmp4
+
+.. _pysquirrel:
+
+NUTS utility: **pysquirrel**
+----------------------------
+
+pysquirrel is a Python package designed to work with NUTS administrative divisions, searching
+the list of Eurostat territorial units.
+
+For more information on how to install and use the package please refer to the README on GitHub.
+
+https://github.com/iiasa/pysquirrel
