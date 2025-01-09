@@ -77,9 +77,9 @@ processes the data and performs *region-aggregation* and *scenario validation*.
 The processing uses the **nomenclature** package
 (`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
 
-The region-aggregation and validation is configured via a project-specific GitHub
-repository, usually usually `https://github.com/iiasa/<project>-workflow`_. Please
-contact the respective project managers or the Scenario Services team if you need access.
+The region-aggregation and validation is configured via a project-specific GitHub_
+repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please contact
+the respective project managers or the Scenario Services team if you need access.
 
 Local scenario processing
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -110,6 +110,8 @@ the validation was successful.
     local check are in sync.
 
 Read the `User Guide`_ of the **nomenclature** package for more information!
+
+.. _GitHub: https://www.github.com
 
 .. _`https://github.com/iiasa/<project>-workflow`: https://github.com/iiasa
 
