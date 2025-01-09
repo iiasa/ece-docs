@@ -73,16 +73,16 @@ Scenario processing
 -------------------
 
 When submitting a scenario (a.k.a. "run") to an IIASA database instance, the server
-does some scenario processing including *region-aggregation* and *scenario validation*
-prior to importing the scenario to the database. The processing uses the
-**nomenclature** package (`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
+executes a scenario-processing workflow including *region-aggregation* and
+*scenario validation* prior to saving the scenario to the database. The processing uses
+the **nomenclature** package (`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
 
 The region-aggregation and validation is configured via a project-specific GitHub_
 repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please contact
 the respective project managers or the Scenario Services team if you need access.
 
-Local scenario processing
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Executing scenario processing locally
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A project workflow can be run on a scenario locally, before submission to an IIASA
 database instance. This can be useful to test region-aggregation and validation.
