@@ -73,9 +73,9 @@ Scenario processing
 -------------------
 
 When submitting a scenario (a.k.a. "run") to an IIASA database instance, the server
-processes the data and performs *region-aggregation* and *scenario validation*.
-The processing uses the **nomenclature** package
-(`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
+does some scenario processing including *region-aggregation* and *scenario validation*
+prior to importing the scenario to the database. The processing uses the
+**nomenclature** package (`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
 
 The region-aggregation and validation is configured via a project-specific GitHub_
 repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please contact
