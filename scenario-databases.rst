@@ -100,6 +100,9 @@ the project repository was cloned to).
 
     nomenclature validate-scenario <path-to-scenario-file>.xlsx
 
+The output log in the terminal will show any validation errors. If the output is empty,
+the validation was successful.
+
 .. warning::
 
     Make sure to pull the latest project repository and update the **nomenclature** package
