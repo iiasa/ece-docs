@@ -78,8 +78,8 @@ The processing uses the **nomenclature** package
 (`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
 
 The region-aggregation and validation is configured via a project-specific GitHub
-repository. Please contact the respective project managers or the Scenario Services
-team if you need access.
+repository, usually usually `https://github.com/iiasa/<project>-workflow`_. Please
+contact the respective project managers or the Scenario Services team if you need access.
 
 Local scenario processing
 ^^^^^^^^^^^^^^^^^^^^^^^^^
