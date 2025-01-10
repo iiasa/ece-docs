@@ -98,7 +98,7 @@ the project repository was cloned to).
 
 .. code::
 
-    nomenclature validate-scenario <path-to-scenario-file>.xlsx
+    nomenclature run-workflow <path-to-scenario-file>.xlsx
 
 The output log in the terminal will show any validation errors. If the output is empty,
 the validation was successful.
