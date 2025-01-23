@@ -99,7 +99,7 @@ results across platforms.
 General requirements
 ````````````````````
 
-- The program, code or tool must be implemented in Python (≥3.7) or R; compiled
+- The program, code or tool must be implemented in Python (≥3.10) or R; compiled
   executables are not acceptable for security reasons
 - Distribution of the source code
   - via an online version-controlled repository
