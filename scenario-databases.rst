@@ -9,8 +9,8 @@ for the community to facilitate scenario analysis, model comparison and dissemin
 Access and permission management
 --------------------------------
 
-There are public and project-internal (private) databases. Access to project-internal
-instances is managed via the `Scenario Services Manager`_.
+There are public and project-internal (private) database instances or **platforms**.
+Access to project-internal platforms is managed via the `Scenario Services Manager`_.
 To participate in a project, please create an account and send the username
 to the project managers by email.
 
