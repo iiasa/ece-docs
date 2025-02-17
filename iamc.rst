@@ -51,6 +51,8 @@ Naming conventions and standards
 
 Read more about guidelines and naming conventions for :ref:`variables` and :ref:`regions`.
 
+.. _project-templates:
+
 Project "templates"
 -------------------
 

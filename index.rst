@@ -60,6 +60,7 @@ Table of Contents
    scenario-databases
    standards
    software
+   user-guide
 
 License & Source
 ----------------
