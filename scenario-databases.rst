@@ -84,9 +84,9 @@ repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please
 the respective project managers or the Scenario Services team if you need access.
 
 The workflow for processing files uploaded via the IIASA Scenario Explorer is
-implemented in a modular fashion. This makes it straightforward to execute programs,
-code and tools developed by (non-IIASA) research partners as part of the processing
-workflow.
+implemented in a modular fashion. It is possible to execute programs, code and tools
+developed by (non-IIASA) research partners as part of the processing workflow
+if the tool follows the :ref:`processing-requirements`.
 
 .. _GitHub: https://www.github.com
 
