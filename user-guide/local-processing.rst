@@ -12,6 +12,8 @@ To run the project workflow locally, do the following:
 2. Git-clone the project repository
    (usually `https://github.com/iiasa/<project>-workflow`_)
 
+.. _`https://github.com/iiasa/<project>-workflow`: https://github.com/iiasa
+
 Then, run the workflow on a scenario data file using the terminal (from the folder where
 the project repository was cloned to).
 

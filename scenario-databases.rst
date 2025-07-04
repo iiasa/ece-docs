@@ -60,14 +60,15 @@ Scenario version management
 ---------------------------
 
 When submitting a scenario (a.k.a. "run") to an IIASA database instance with an already
-existing model-scenario combination, the database will save the new submission as a new version
-of that run. The **version number** is incremented automatically and the new version
-will be automatically set as **default version** for that model-scenario name.
+existing model-scenario combination, the database will save the new submission as a new
+version of that run. The **version number** is incremented automatically and the new
+version will be automatically set as **default version** for that model-scenario name.
 
 To select other (non-default) versions, you can use the "Switch to Advanced View" button
 in the scenario-selection tab of an IIASA Scenario Explorer or you can use the
 :code:`default_only=False` option of the function :func:`pyam.read_iiasa()`
-or the **ixmp4** package (`read the docs <https://docs.ece.iiasa.ac.at/ixmp4>`_).
+or the **ixmp4** package (`read the docs <https://docs.ece.iiasa.ac.at/ixmp4>`_),
+see also the Section :ref:`database-api`.
 
 .. _scenario-processing:
 
@@ -90,3 +91,60 @@ See :ref:`local-processing` for more information!
 .. _GitHub: https://www.github.com
 
 .. _`https://github.com/iiasa/<project>-workflow`: https://github.com/iiasa
+
+.. _database-api:
+
+Database API
+------------
+
+You can query scenario data from an IIASA database instance using the function
+:func:`pyam.read_iiasa()` of the **pyam** package. More elaborate queries depend on the
+type of the database.
+
+*Scenario Apps* and **ixmp4** instances
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+New *Scenario Explorer* instances (set up since 2025) use the *ScSe Apps infrastructure*
+and the **ixmp4** package as a database backend. You can list all **ixmp4** platforms
+hosted by IIASA (and to which you have access) using the following function:
+
+.. autofunction:: pyam.iiasa.platforms
+
+You can use the **ixmp4** package for connecting to a platform and execute more complex
+queries.
+
+.. code:: python
+
+    import ixmp4
+
+    platform = ixmp4.Platform("<instance>")
+
+    # get a table of all "scenario runs" in the database
+    platform.runs.tabulate()
+
+    # get a table of all IAMC variables
+    platform.iamc.variables.tabulate()
+
+Legacy *Scenario Explorer* instances
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The *Scenario Explorer* infrastructure developed by the Scenario Services and Scientific
+Software team from 2018 until 2024 uses the **ixmp** package (not **ixmp4**).
+
+You can use the **pyam** package to connect to a legacy *Scenario Explorer* instance
+and for example get a list of all scenarios in a database instance.
+
+.. code:: python
+
+    import pyam
+
+    conn = pyam.iiasa.Connection("<instance>")
+    conn.properties()
+
+Refer to :class:`pyam.iiasa.Connection` for more information.
+
+.. note::
+
+    Read the `pyam documentation`_ for more information!
+
+.. _`pyam documentation`:  https://pyam-iamc.readthedocs.io/en/stable/tutorials/iiasa.html
