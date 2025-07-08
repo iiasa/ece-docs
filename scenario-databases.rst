@@ -97,9 +97,8 @@ See :ref:`local-processing` for more information!
 Database API
 ------------
 
-You can query scenario data from an IIASA database instance using the function
-:func:`pyam.read_iiasa()` of the **pyam** package. More elaborate queries depend on the
-type of the database.
+You can query scenario data from an IIASA database instance via a Rest API or the Python
+packages. The queries depend on the type of the database.
 
 *Scenario Apps* and **ixmp4** instances
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -108,9 +107,8 @@ New *Scenario Explorer* instances (set up since 2025) use the *ScSe Apps infrast
 and the **ixmp4** package as a database backend. You can list all **ixmp4** platforms
 hosted by IIASA (and to which you have access) using the :func:`pyam.iiasa.platforms()`.
 
-
-You can use the **ixmp4** package for connecting to a platform and execute more complex
-queries.
+You can use :func:`pyam.read_iiasa()` for simple queries or the **ixmp4** package for
+connecting to a platform and execute more complex requests.
 
 .. code:: python
 
@@ -131,7 +129,8 @@ The *Scenario Explorer* infrastructure developed by the Scenario Services and Sc
 Software team from 2018 until 2024 uses the **ixmp** package (not **ixmp4**).
 
 You can use the **pyam** package to connect to a legacy *Scenario Explorer* instance
-and for example get a list of all scenarios in a database instance.
+and for example get a list of all scenarios in a database instance. You can also use
+:func:`pyam.read_iiasa()` to query scenario data from a legacy instance.
 
 .. code:: python
 
@@ -139,6 +138,8 @@ and for example get a list of all scenarios in a database instance.
 
     conn = pyam.iiasa.Connection("<instance>")
     conn.properties()
+
+    df = pyam.read_iiasa(conn, .. <filter_arguments>)
 
 Refer to :class:`pyam.iiasa.Connection` for more information.
 
