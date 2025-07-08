@@ -105,7 +105,7 @@ packages. The queries depend on the type of the database.
 
 New *Scenario Explorer* instances (set up since 2025) use the *ScSe Apps infrastructure*
 and the **ixmp4** package as a database backend. You can list all **ixmp4** platforms
-hosted by IIASA (and to which you have access) using the :func:`pyam.iiasa.platforms()`.
+hosted by IIASA (and to which you have access) using :func:`pyam.iiasa.platforms()`.
 
 You can use :func:`pyam.read_iiasa()` for simple queries or the **ixmp4** package for
 connecting to a platform and execute more complex requests.
