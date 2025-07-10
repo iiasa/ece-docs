@@ -125,12 +125,10 @@ connecting to a platform and executing other requests.
 Legacy *Scenario Explorer* instances
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The *Scenario Explorer* infrastructure developed by the Scenario Services and Scientific
-Software team from 2018 until 2024 uses the **ixmp** package (not **ixmp4**).
-
 You can use the **pyam** package to connect to a legacy *Scenario Explorer* instance
-and for example get a list of all scenarios in a database instance. You can also use
-:func:`pyam.read_iiasa()` to query scenario data from a legacy instance.
+developed by the Scenario Services and Scientific Software team from 2018 until 2024.
+For example, you can get a list of all scenarios in a database instance. You can also
+use :func:`pyam.read_iiasa()` to query scenario data from a legacy instance.
 
 .. code:: python
 
