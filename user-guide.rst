@@ -33,8 +33,9 @@ Detailed User Guides
 --------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    user-guide/local-processing
+   user-guide/processing-requirements
 
 .. _common-definitions: https://github.com/iamconsortium/common-definitions
