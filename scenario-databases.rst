@@ -84,6 +84,10 @@ The region-aggregation and validation is configured via a project-specific GitHu
 repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please contact
 the respective project managers or the Scenario Services team if you need access.
 
+You can also run the project workflow locally (on your computer) before submission to
+an IIASA database instance, to make sure that the validation and processing works.
+See :ref:`local-processing` for more information.
+ 
 The workflow for processing files uploaded via the IIASA Scenario Explorer is
 implemented in a modular fashion. It is possible to execute programs, code and tools
 developed by (non-IIASA) research partners as part of the processing workflow
