@@ -17,9 +17,18 @@ filter by model, scenario or variable.
 
 .. tip::
 
-    Learn more about the **pyam** package on `Read The Docs`_.
+    Learn more about the Python package **pyam** on `Read The Docs`_.
+
+    There is a tutorial_ to use **pyam** with **R** via the **reticulate** package.
 
 .. _`Read The Docs`: https://pyam-iamc.readthedocs.io
+
+.. _tutorial: https://pyam-iamc.readthedocs.io/en/stable/R_tutorials/pyam_R_tutorial.html
+
+The approach for more complex queries depends on the database backend:
+
+- :ref:`ixmp4`
+- :ref:`legacy`
 
 .. note::
 
@@ -34,7 +43,10 @@ filter by model, scenario or variable.
          ixmp4 login <username>
 
     You will be prompted to enter your password.
-    Your username and password will be saved locally in plain-text for future use.
+
+    *Your username and password will be saved locally in plain-text for future use.*
+
+.. _ixmp4:
 
 *Scenario Apps* and **ixmp4** instances
 ---------------------------------------
@@ -50,7 +62,8 @@ connecting to a platform and executing other requests.
 
     import ixmp4
 
-    platform = ixmp4.Platform("<instance>")
+    # connect to a database platform
+    platform = ixmp4.Platform("<slug>")
 
     # get a table of all "scenario runs" in the database
     platform.runs.tabulate()
@@ -58,24 +71,27 @@ connecting to a platform and executing other requests.
     # get a table of all IAMC variables
     platform.iamc.variables.tabulate()
 
+.. _legacy:
+
 Legacy *Scenario Explorer* instances
 ------------------------------------
 
 You can use the **pyam** package to connect to a legacy *Scenario Explorer* instance
 developed by the Scenario Services and Scientific Software team from 2018 until 2024.
-For example, you can get a list of all scenarios in a database instance. You can also
-use :func:`pyam.read_iiasa()` to query scenario data from a legacy instance.
+
+You can use :func:`pyam.read_iiasa()` for simple queries or the
+:class:`pyam.iiasa.Connection` class to get a list of available instances or for more
+elaborate queries.
 
 .. code:: python
 
     import pyam
 
-    conn = pyam.iiasa.Connection("<instance>")
+    # get a list of all available legacy database instances
+    pyam.iiasa.Connection().valid_connections
 
-    # get a table of all scenarios in the database
-    conn.properties()
+    # connect to a specific legacy database instance
+    database = pyam.iiasa.Connection("<slug>")
 
-    # query scenario data and meta indicators from the database
-    df = pyam.read_iiasa(conn, .. <filter_arguments>)
-
-Refer to :class:`pyam.iiasa.Connection` for more information.
+    # get a table of all scenarios in this database
+    database.properties()
