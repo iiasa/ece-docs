@@ -4,10 +4,40 @@ Querying IIASA databases
 ========================
 
 You can query scenario data from an IIASA database instance directly via Python, R or a
-Rest API.
+Rest API. The **pyam** package allows to directly query both the new *Scenario Apps*
+and the (legacy) *Scenario Explorer* databases (2018-2024).
+
+.. code:: python
+
+    import pyam
+    df = pyam.read_iiasa("<slug>", region="World", ...)
+
+Here, the `slug` is the name of the database. To avoid large queries, you can also
+filter by model, scenario or variable.
+
+.. tip::
+
+    Learn more about the **pyam** package on `Read The Docs`_.
+
+.. _`Read The Docs`: https://pyam-iamc.readthedocs.io
+
+.. note::
+
+    **Access and permission management for project-internal databases**
+
+    By default, your can connect to all public scenario database instances via the API.
+    If you have permission to connect to a private, project-internal database instance,
+    you can set your credentials by running the following command in a console:
+
+    .. code::
+
+         ixmp4 login <username>
+
+    You will be prompted to enter your password.
+    Your username and password will be saved locally in plain-text for future use.
 
 *Scenario Apps* and **ixmp4** instances
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------
 
 New *Scenario Explorer* instances (set up since 2025) use the *ScSe Apps infrastructure*
 and the **ixmp4** package as a database backend. You can list all **ixmp4** platforms
@@ -29,7 +59,7 @@ connecting to a platform and executing other requests.
     platform.iamc.variables.tabulate()
 
 Legacy *Scenario Explorer* instances
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 
 You can use the **pyam** package to connect to a legacy *Scenario Explorer* instance
 developed by the Scenario Services and Scientific Software team from 2018 until 2024.
@@ -49,10 +79,3 @@ use :func:`pyam.read_iiasa()` to query scenario data from a legacy instance.
     df = pyam.read_iiasa(conn, .. <filter_arguments>)
 
 Refer to :class:`pyam.iiasa.Connection` for more information.
-
-.. note::
-
-    Read the `pyam documentation`_ for more information about working with the IIASA
-    scenario databases and Python.
-
-.. _`pyam documentation`:  https://pyam-iamc.readthedocs.io/en/stable/tutorials/iiasa.html
