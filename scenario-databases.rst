@@ -102,5 +102,5 @@ if the tool follows the :ref:`processing-requirements`.
 Database API
 ------------
 
-You can query scenario data from an IIASA database instance directly via Python, R or a
-Rest API. Refer to the User Guide for :ref:`local-processing` for more information!
+You can query scenario data from an IIASA database instance directly via Python or R.
+Refer to the User Guide for :ref:`query-iiasa-databases` for more information!
