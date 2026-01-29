@@ -13,6 +13,9 @@ analysis and model comparison.
 
 The full list of NUTS regions is accessible in Eurostat's `Excel file`_.
 
+The geojson files for the NUTS 1, 2 and 3 regions are 
+available in the [scse-geojson](https://github.com/iiasa/scse-geojson) repository.
+
 .. code:: python
 
   from nomenclature import nuts
