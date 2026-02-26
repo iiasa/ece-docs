@@ -62,11 +62,11 @@ you have to "register" your model. A model registration requires three specifica
 
 .. note::
 
-    **When to update the model version number**
+    **When to change the model version number**
 
     The version number should (only) be changed if:
     
-    a) the regional resolution of the model changes (like adding more countries/regions), or
+    a) the regional resolution of the model changes (e.g., adding more countries/regions), or
     b) new sectors or modules are added to the model
 
     Minor updates or changes do not require a new version number.
