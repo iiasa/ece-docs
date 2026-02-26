@@ -60,6 +60,17 @@ you have to "register" your model. A model registration requires three specifica
 * A model mapping to perform region aggregation from *native_regions* to
   *common_regions* and renaming of model native regions (optional)
 
+.. note::
+
+    **When to change the model version number**
+
+    The version number should (only) be changed if:
+    
+    a) the regional resolution of the model changes (e.g., adding more countries/regions), or
+    b) new sectors or modules are added to the model
+
+    Minor updates or changes do not require a new version number.
+
 Option 1) Registration using an Excel template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -67,6 +78,17 @@ If you do not feel comfortable using GitHub, please use the `Excel template`_ an
 it to the project managers by email.
 
 .. _`Excel template`: https://raw.githubusercontent.com/IAMconsortium/nomenclature/main/templates/model-registration-template.xlsx
+
+.. tip::
+
+    **Do you need to submit a model registration spreadsheet?**
+
+    If your model uses "standard" regions like countries (see :ref:`countries`),
+    NUTS regions (see :ref:`nuts`), or US states, you typically do **not** need to
+    submit a model registration spreadsheet.
+
+    A model registration is primarily needed for models with custom regional definitions
+    or aggregations that require explicit mapping.
 
 Option 2) Registration using a GitHub pull request
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
