@@ -1,5 +1,8 @@
+Archive
+=======
+
 The IIASA Modeling Platform Server
-==================================
+----------------------------------
 
 The IIASA *Energy, Climate, and Environment Program* (ECE) hosts
 a suite of **Scenario Explorer** instances and
@@ -25,12 +28,12 @@ as well as a `REST API <rest_api.html>`_ for access via web-based applications.
 .. _`IAMC 1.5°C Scenario Explorer hosted by IIASA`: https://data.ece.iiasa.ac.at/iamc-1.5c-explorer
 
 Table of Contents
------------------
+^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
 
-   scenario_explorer
-   tutorials
-   rest_api
-   scenario_processing
+   archive/scenario_explorer
+   archive/tutorials
+   archive/rest_api
+   archive/scenario_processing
