@@ -38,5 +38,6 @@ Detailed User Guides
    user-guide/query-iiasa-databases
    user-guide/local-processing
    user-guide/processing-requirements
+   user-guide/preparing-scenario-submissions
 
 .. _common-definitions: https://github.com/iamconsortium/common-definitions
