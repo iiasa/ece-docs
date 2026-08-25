@@ -11,6 +11,15 @@ https://manager.ece.iiasa.ac.at/register. Once you click **Register**, a
 message will be sent to the registered e-mail address to validate the
 account.
 
+.. figure:: _static/manager-register.png
+   :align: center
+   :alt: A screenshot of the IIASA Manager registration page. The form has four
+   fields (username, e-mail address, password, and confirm password), a tickbox
+   for reading and agreeing to the privacy policy, a link to the privacy policy,
+   and a "Register" button.
+
+   The IIASA Manager registration page.
+
 2. **Accessing a Scenario Explorer App**
 
 Access permission for Scenario Explorer apps is configured in the IIASA ECE
