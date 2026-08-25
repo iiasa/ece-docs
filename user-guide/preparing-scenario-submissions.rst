@@ -134,17 +134,17 @@ accounts to successfully uploading data.
 
     <input type="checkbox">
 
-   The following checklist helps ensure that the files to be uploaded are
-   properly formatted according to the IAMC data format and ready for upload to
-   the Scenario Explorer:
+The following checklist helps ensure that the files to be uploaded are
+properly formatted according to the IAMC data format and ready for upload to
+the Scenario Explorer:
 
-   |uncheck| The file format is in XLSX
-   |uncheck| The file contains a **data** sheet
+* |uncheck| The file format is in XLSX
+* |uncheck| The file contains a **data** sheet
 
-        |uncheck| The sheet contains **model**, **scenario**, **region**,
-          **variable**, and **unit** columns
-        |uncheck| The sheet contains timeslice columns (e.g.: 2005, 2010, 2015, 2020,
-       etc.)
+   * |uncheck| The sheet contains **model**, **scenario**, **region**,
+      **variable**, and **unit** columns
+   * |uncheck| The sheet contains timeslice columns (e.g.: 2005, 2010, 2015,
+      2020, etc.)
 
-   |uncheck| The file does not contain duplicate rows or duplicate indexes
-     (combination of model, scenario, region, variable, unit)
+* |uncheck| The file does not contain duplicate rows or duplicate indexes
+   (combination of model, scenario, region, variable, unit)
