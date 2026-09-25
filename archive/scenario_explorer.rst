@@ -38,3 +38,17 @@ in multi-institution model comparison exercises.
 The infrastructure includes data version control and allows to run scenario
 post-processing on any uploaded data (e.g., validation, consistency,
 meta-analysis).
+
+Scenario version management
+```````````````````````````
+
+When submitting a scenario (a.k.a. "run") to an IIASA database instance with an already
+existing model-scenario combination, the database will save the new submission as a new
+version of that run. The **version number** is incremented automatically and the new
+version will be automatically set as **default version** for that model-scenario name.
+
+To select other (non-default) versions, you can use the "Switch to Advanced View" button
+in the scenario-selection tab of an IIASA Scenario Explorer or you can use the
+:code:`default_only=False` option of the function :func:`pyam.read_iiasa()`
+or the **ixmp4** package (`read the docs <https://docs.ece.iiasa.ac.at/ixmp4>`_),
+see also the Section :ref:`database-api`.
