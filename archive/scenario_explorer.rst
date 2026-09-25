@@ -51,4 +51,4 @@ To select other (non-default) versions, you can use the "Switch to Advanced View
 in the scenario-selection tab of an IIASA Scenario Explorer or you can use the
 :code:`default_only=False` option of the function :func:`pyam.read_iiasa()`
 or the **ixmp4** package (`read the docs <https://docs.ece.iiasa.ac.at/ixmp4>`_),
-see also the Section :ref:`database-api`.
+see also the User Guide :ref:`query-iiasa-databases`.

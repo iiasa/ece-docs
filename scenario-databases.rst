@@ -133,4 +133,4 @@ Database API
 ------------
 
 You can query scenario data from an IIASA database instance directly via Python or R.
-Refer to the User Guide for :ref:`query-iiasa-databases` for more information!
+Refer to the User Guide for :ref:`query-iiasa-databases` for more information.
