@@ -1,5 +1,13 @@
 .. _tutorials:
 
+.. warning::
+
+   This page has been archived from the outdated **IIASA Modeling Platform Server**
+   documentation.
+   Some or all of the information presented here may no longer be relevant or
+   applicable.
+   Please refer to the updated documentation in the other sections of the website.
+
 Tutorials
 =========
 
