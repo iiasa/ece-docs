@@ -6,7 +6,7 @@ Native and common regions
 Native model regions
 --------------------
 
-Each model has a **native region** resolution.
+The **native region** resolution is the list of regions that are explicitly represented in a model.
 
 Models with a coarse spatial resolution should add a model-specific identifier to the
 native model regions (e.g., `MESSAGEix-GLOBIOM 1.1|North America`) to avoid confusion
@@ -26,8 +26,7 @@ A widely used example are the `R5, R9 and R10 regions`_.
 
 .. _`R5, R9 and R10 regions`: https://github.com/IAMconsortium/common-definitions/blob/main/definitions/region/common.yaml
 
-Computing aggregated data
-`````````````````````````
+Computing regional aggregates
 
 The `**nomenclature** <https://nomenclature-iamc.readthedocs.io>`_ package includes
 a user guide on how to setup instructions for region aggregation.
@@ -36,7 +35,7 @@ aggregating the data to the selected common regions.
 This instruction-based aggregation can be run locally on IAMC data files, and is also
 integrated in project workflows for uploading data to Scenario Explorer instances.
 
-To learn more about how nomenclature enables region aggregation, please see our
+To learn more about region aggregation using the **nomenclature** package, please see our
 guide on `Region processing using model mappings`_ and the `RegionProcessor`_.
 
 .. _`Region processing using model mappings`: <https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-mapping.html>
