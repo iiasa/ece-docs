@@ -27,6 +27,7 @@ A widely used example are the `R5, R9 and R10 regions`_.
 .. _`R5, R9 and R10 regions`: https://github.com/IAMconsortium/common-definitions/blob/main/definitions/region/common.yaml
 
 Computing regional aggregates
+`````````````````````````````
 
 The `**nomenclature** <https://nomenclature-iamc.readthedocs.io>`_ package includes
 a user guide on how to setup instructions for region aggregation.
