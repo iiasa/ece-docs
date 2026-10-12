@@ -3,28 +3,30 @@
 NUTS classification
 ===================
 
-The :py:mod:`nomenclature` (`read the docs`_) package makes use of the :py:mod:`pysquirrel` package
-(:ref:`more information here <pysquirrel>`) to provide a utility for region
-names based on the `NUTS classification <https://ec.europa.eu/eurostat/web/nuts>`_. 
+The :py:mod:`nomenclature` (`read the docs`_) package makes use of the
+:py:mod:`pysquirrel` package (:ref:`more information here <pysquirrel>`)
+to provide a utility for region names based on the `NUTS classification`_. 
 
-This feature allows users to easily import the NUTS regions which are territorial units with 
-multiple levels of resolution, adding functionality to facilitate scenario 
-analysis and model comparison.
+This feature allows users to easily import the NUTS regions which are territorial
+units with  multiple levels of resolution, adding functionality to facilitate
+scenario analysis and model comparison.
 
 The full list of NUTS regions is accessible in Eurostat's `Excel file`_.
 
-The geojson files for the NUTS 1, 2 and 3 regions are 
-available in the [scse-geojson](https://github.com/iiasa/scse-geojson) repository.
+The geojson files for the NUTS 1, NUTS 2 and NUTS 3 regions are available in the
+`scse-geojson <https://github.com/iiasa/scse-geojson>`_ repository.
 
 .. code:: python
 
   from nomenclature import nuts
 
-  # list of NUTS region codes
+  # Get list of NUTS region codes
   nuts.codes
   
-  # list of NUTS region names
+  # Get list of NUTS region names
   nuts.names
+
+.. _`NUTS classification`: https://ec.europa.eu/eurostat/web/nuts
 
 .. _`read the docs`: https://nomenclature-iamc.readthedocs.io/en/stable/
 

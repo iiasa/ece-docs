@@ -21,24 +21,16 @@ Variable naming conventions
 
 A variable name should adhere to the following conventions:
 
-*  A *|* (pipe) character indicates levels of hierarchy.
-*  Do not use spaces before and after the *|* character, but add a
-   space between words
+* A :code:`|` (pipe) character indicates levels of hierarchy.
+* Do not use spaces before and after the :code:`|` character,
+  but add a space between words, e.g. :code:`Primary Energy|Non-Biomass Renewables`
 
-   .. code:: yaml
-
-      Primary Energy|Non-Biomass Renewables
-
-*  Do not use abbreviations (e.g, *PHEV*) unless strictly necessary.
-*  Do not use abbreviations of statistical operations (*min*, *max*,
-   *avg*) but always spell out the term.
-*  All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
-*  If necessary to add a method or operation-identifier (e.g., Share, per capita)
-   to a variable name, add it in square brackets, e.g.,
-
-   .. code:: yaml
-
-      Population|Urban [Share]
+* Do not use abbreviations (e.g, *PHEV*) unless strictly necessary.
+* Do not use abbreviations of statistical operations (*min*, *max*,
+  *avg*) but always spell out the term.
+* All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
+* If necessary to add a method or operation-identifier (e.g., Share, per capita)
+  to a variable name, add it in square brackets, e.g. :code:`Population|Urban [Share]`
 
 Units
 -----
