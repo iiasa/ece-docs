@@ -26,11 +26,11 @@ A model registration requires three specifications:
 
     Minor updates or changes do not require a new version number.
 
-Option 1) Registration using an Excel template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Registration using an Excel template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you do not feel comfortable using GitHub, please use the `Excel template`_ and send
-it to the project managers by email.
+If you do not feel comfortable using GitHub, please use the `Excel template`_ and
+send it to the project managers by e-mail.
 
 .. _`Excel template`: https://raw.githubusercontent.com/IAMconsortium/nomenclature/main/templates/model-registration-template.xlsx
 
@@ -45,27 +45,68 @@ it to the project managers by email.
     A model registration is primarily needed for models with custom regional definitions
     or aggregations that require explicit mapping.
 
-Option 2) Registration using a GitHub pull request
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you have filled out the Excel model registration template and need to convert
+it to YAML format, you can use the :ref:`cli` command ``parse-model-registration``:
 
-The preferred approach for model registration is starting a GitHub pull request.
-Please contact the administrators if permissions for the project repository
-are required.
+.. code:: bash
 
-Please follow the `Model registration user guide
-<https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-registration.html>`_.
+    nomenclature parse-model-registration registration.xlsx
 
-Scenario version management
----------------------------
+This command reads the Excel file and generates two sets of YAML files:
 
-When submitting a scenario (a.k.a. "run") to an IIASA database instance with an already
-existing model-scenario combination, the database will save the new submission as a new
-version of that run. The **version number** is incremented automatically and the new
-version will be automatically set as **default version** for that model-scenario name.
+- **Region definitions**: created in ``definitions/region/`` (default location)
+- **Model mappings**: created in ``mappings/`` (default location)
 
-To select other (non-default) versions, you can use the "Switch to Advanced View" button
-in the scenario-selection tab of an IIASA Scenario Explorer or you can use the
-:code:`default_only=False` option of the function :func:`pyam.read_iiasa()`
-or the **ixmp4** package (`read the docs <https://docs.ece.iiasa.ac.at/ixmp4>`_),
-see also the Section :ref:`database-api`.
+You can specify custom output folders using the ``--definition-path`` and
+``--mappings-path`` options:
 
+.. code:: bash
+
+    nomenclature parse-model-registration registration.xlsx \
+        --definition-path ./custom/definitions/region \
+        --mappings-path ./custom/mappings
+
+The command automatically:
+
+- Parses the **"Common-Region-Mapping"** sheet to generate model mapping YAML files
+- Parses the **"Region-Country-Mapping"** sheet (if present) to generate region
+  definitions with country lists
+- Adds an aggregation to "World" from R5 regions (if present)
+
+Registration using a GitHub Pull Request
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The preferred approach for model registration is starting a GitHub Pull Request.
+The project workflow repository is usually found in:
+`https://github.com/iiasa/<project>-workflow <https://github.com/iiasa>`_
+Please contact an administrator from the IIASA Scenario Services team if permissions
+for the project repository are required.
+
+1. **Native-region definitions**
+
+If the model reports results at a model-specific regional resolution (e.g., other
+than national countries), add a file ``<your-model_vX.X>.yaml`` in the folder
+``definitions/region/model_native_regions/``.
+
+This file should follow the region-naming conventions of :ref:`region`.
+The *hierarchy* property should be the model name including the version number.
+
+2. **Model mapping for region processing**
+
+If the scenario-processing workflow should execute a region-processing step,
+add a file ``<your-model_vX.X>.yaml`` in the folder ``mappings/``.
+
+This file should follow the region-naming conventions of :ref:`model_mapping`.
+
+3. **Continuous integration**
+
+When registering a model via a pull request to a GitHub project repository, a
+GitHub Actions workflow is executed for ensuring that the model mapping is valid.
+This serves to ensure that there are no typos or inconsistencies in the mapping or
+region names. For example, only regions defined in the *region* codelist can be
+used as targets for renaming or aggregation in the region-aggregation.
+
+You can run the validation locally using the **nomenclature** function
+:func:`assert_valid_structure` of the `cli`_.
+
+.. _`cli`: https://nomenclature-iamc.readthedocs.io/en/stable/cli.html
