@@ -1,8 +1,11 @@
+.. _advanced:
+
 Advanced User Guides
 ====================
 
-The following user guides are intended for users more comfortable with programming
-skills and familiar with the IIASA Scenario Services software and infrastructure stack.
+For advanced guides, such as how to programatically query Scenario App data,
+how to locally process data using a project workflow script, or how to develop
+processing modules to incorporate into the upload pipeline, see below: 
 
 .. toctree::
    :maxdepth: 1

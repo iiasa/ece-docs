@@ -1,12 +1,12 @@
 .. _manager:
 
-Access and permission management
+Access and Permission Management
 ================================
 
 There are public and project-internal (private) database instances or **platforms**.
 Access to project-internal platforms is managed via the `Scenario Services Manager`_.
 
-.. _`user_registration`:
+.. _user_registration:
 
 Registering in a Scenario App
 -----------------------------
@@ -15,7 +15,7 @@ To register a new user account, go to https://manager.ece.iiasa.ac.at/register.
 Once you click **Register**, a message will be sent to the registered e-mail address
 to validate the account.
 
-.. _`scenario_app_access`:
+.. _scenario_app_access:
 
 Accessing a Scenario App
 ------------------------
@@ -30,6 +30,7 @@ including your view permissions, in the *Services* tab of the manager.
 
 .. figure:: ../../_static/ece-manager-screenshot.png
    :width: 600px
+   :align: center
 
    Screenshot of the "Overview" page of the `Scenario Services Manager`_
 
@@ -40,13 +41,13 @@ account and send the username to an administrator from the IIASA Scenario Servic
 team and the appropriate project manager(s).
 If you require upload permission, see the next step.
 
-.. _`upload_permissions`:
+.. _upload_permissions:
 
 Upload Permissions for a Scenario App
 -------------------------------------
 
-In order to upload data to the Scenario Explorer, the user must be registered in
-the appropriate modeler group(s).
+In order to submit scenarios to the Scenario Explorer, the user must be registered
+in the appropriate modeler group(s).
 
 To have submit permission, please contact an administrator from the IIASA
 Scenario Services team, or the appropriate contact person in the project,
@@ -58,7 +59,9 @@ in the *Services* tab of the manager.
 You can also confirm the model(s) you can upload in the Scenario App, in the
 **Scenario Submission** page, see :ref:`scenario_submission`.
 
-*To proceed to uploading data, go to :ref:`scenario_submission`.*
+.. tip::
+
+   To learn how to prepare data for scenario submission, go to :ref:`data_format`.
 
 .. _group_manager:
 
@@ -71,6 +74,7 @@ After logging in to the Manager, group managers can see a **User Management** ta
 
 .. figure:: ../../_static/ece-manager-group-manager.png
    :width: 600px
+   :align: center
 
    A group manager can see and access the User Management tab in the Manager
    navigation menu.
