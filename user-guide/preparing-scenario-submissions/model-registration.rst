@@ -26,8 +26,8 @@ A model registration requires three specifications:
 
     Minor updates or changes do not require a new version number.
 
-Registration using an Excel template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Option 1. Registration using an Excel template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you do not feel comfortable using GitHub, please use the `Excel template`_ and
 send it to the project managers by e-mail.
@@ -73,12 +73,13 @@ The command automatically:
   definitions with country lists
 - Adds an aggregation to "World" from R5 regions (if present)
 
-Registration using a GitHub Pull Request
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Option 2. Registration using a GitHub Pull Request
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The preferred approach for model registration is starting a GitHub Pull Request.
 The project workflow repository is usually found in:
 `https://github.com/iiasa/<project>-workflow <https://github.com/iiasa>`_
+
 Please contact an administrator from the IIASA Scenario Services team if permissions
 for the project repository are required.
 
@@ -88,7 +89,7 @@ If the model reports results at a model-specific regional resolution (e.g., othe
 than national countries), add a file ``<your-model_vX.X>.yaml`` in the folder
 ``definitions/region/model_native_regions/``.
 
-This file should follow the region-naming conventions of :ref:`region`.
+This file should follow the region-naming conventions of :ref:`regions`.
 The *hierarchy* property should be the model name including the version number.
 
 2. **Model mapping for region processing**
@@ -106,7 +107,10 @@ This serves to ensure that there are no typos or inconsistencies in the mapping 
 region names. For example, only regions defined in the *region* codelist can be
 used as targets for renaming or aggregation in the region-aggregation.
 
-You can run the validation locally using the **nomenclature** function
-:func:`assert_valid_structure` of the `cli`_.
+To confirm your commits will successfully pass the tests, you can run validation
+locally using the **nomenclature** function :func:`assert_valid_structure` of the
+`cli`_.
+Make sure you run a version of nomenclature matching the repository tests 
+(usually the latest published).
 
 .. _`cli`: https://nomenclature-iamc.readthedocs.io/en/stable/cli.html
