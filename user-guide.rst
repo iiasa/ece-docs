@@ -8,21 +8,21 @@ Preparing Scenario Submissions
 ------------------------------
 
 To learn about how to prepare and upload data to Scenario Apps, start here:
-`preparing_scenario_submissions`_.
+:ref:`preparing_scenario_submissions`.
 
 You can also find the table of contents and access each guide below:
 
 .. toctree::
    :maxdepth: 1
 
-   user-guide/scenario-submissions/iiasa-manager
-   user-guide/scenario-submissions/model-registration
+   user-guide/preparing-scenario-submissions/iiasa-manager
+   user-guide/preparing-scenario-submissions/model-registration
 
 Using Scenario Apps
 -------------------
 
 To learn about how to use the Scenario web applications, start here:
-`scenario-apps`_.
+:ref:`scenario-apps`.
 
 You can also find the table of contents and access each guide below:
 
