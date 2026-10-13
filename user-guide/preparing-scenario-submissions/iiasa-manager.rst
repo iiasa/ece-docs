@@ -58,6 +58,8 @@ in the *Services* tab of the manager.
 You can also confirm the model(s) you can upload in the Scenario App, in the
 **Scenario Submission** page, see :ref:`scenario_submission`.
 
+*To proceed to uploading data, go to :ref:`scenario_submission`.*
+
 .. _group_manager:
 
 Managing User Permissions
@@ -74,12 +76,15 @@ After logging in to the Manager, group managers can see a **User Management** ta
    navigation menu.
 
 In the **User Management** tab:
+
 - Go to **Managed Groups > List** to see all the groups you manage.
+
 - Go to **Managed Groups > Edit** to see all users in a group, add, and remove users.
 
 Both menus support text search.
 
 To manage users in a group:
+
 1. Select a group from the list or by searching.
    The group page will open in the **Info** tab.
 2. Go to the **Members** tab to list all current users.
