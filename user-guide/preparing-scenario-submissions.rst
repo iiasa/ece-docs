@@ -6,7 +6,7 @@ accounts to successfully uploading data.
 
 1. **Registering in the Scenario Explorer**
 
-To register a new user account, head to
+To register a new user account, go to
 https://manager.ece.iiasa.ac.at/register. Once you click **Register**, a
 message will be sent to the registered e-mail address to validate the
 account.
@@ -22,7 +22,7 @@ account.
 
 2. **Accessing a Scenario Explorer App**
 
-Access permission for Scenario Explorer apps is configured in the IIASA ECE
+Access permission for project-specific Scenario Explorer apps is configured in the IIASA ECE
 Manager.
 
 In order to have access to a private or gated app, the user must be
@@ -30,7 +30,7 @@ registered in the respective accessor group. Public apps are accessible to
 any person by default.
 
 To gain access, please contact an administrator from the IIASA Scenario
-Services team, or the appropriate contact person in the project.
+Services team, or the appropriate contact person for the project.
 
 3. **Logging in to the Scenario Explorer**
 
