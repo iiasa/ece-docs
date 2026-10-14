@@ -1,5 +1,11 @@
 .. _manager:
 
+.. tip::
+
+  This is the first step of the **Preparing Scenario Submissions** user guide.
+
+  To learn how to prepare data for scenario submission, go to :ref:`model-registration`.
+
 Access and permission management
 ================================
 
@@ -58,10 +64,6 @@ You can see all public and private database instances to which you can upload da
 in the *Services* tab of the manager.
 You can also confirm the model(s) you can upload in the Scenario App, in the
 **Scenario Submission** page, see :ref:`scenario-submission`.
-
-.. tip::
-
-   To learn how to prepare data for scenario submission, go to :ref:`data-format`.
 
 .. _group-manager:
 

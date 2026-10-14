@@ -1,5 +1,11 @@
 .. _model-registration:
 
+.. tip::
+
+  This is the second step of the **Preparing Scenario Submissions** user guide.
+  
+  To learn how to prepare data for scenario submission, go to :ref:`data-format`.
+
 Model registration
 ==================
 

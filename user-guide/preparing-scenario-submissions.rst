@@ -1,4 +1,4 @@
-.. _preparing_scenario_submissions:
+.. _preparing-scenario-submissions:
 
 Preparing Scenario Submissions
 ==============================
@@ -26,5 +26,5 @@ scenarios for a project's Scenario App.
 .. tip::
 
    To learn about Scenario Apps' features and how to submit scenarios, go to
-   :ref:`_scenario-apps`.
+   :ref:`scenario-apps`.
 
