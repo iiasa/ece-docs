@@ -149,7 +149,7 @@ import the ``main()`` function.
   df = pyam.IamDataFrame("/path/to/file")
   df = project_workflow(df)
 
-.. warning::
+.. important::
 
   Make sure to pull the latest project repository and update the **nomenclature**
   package when you repeat this step later to make sure that the IIASA infrastructure

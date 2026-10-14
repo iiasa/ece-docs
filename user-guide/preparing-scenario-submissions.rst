@@ -3,30 +3,28 @@
 Preparing Scenario Submissions
 ==============================
 
-The following steps guide new users from registering new Scenario Explorer
-accounts to preparing the data for upload:
+The following steps guide users from registering new Scenario Explorer accounts
+to preparing IAMC scenario data for upload:
 
 .. toctree::
    :maxdepth: 1
 
    preparing-scenario-submissions/iiasa-manager
-
-  - Registering in a Scenario App
-  - Accessing a Scenario Explorer App
-  - Upload Permissions for a Scenario App
-
-
-.. toctree::
-   :maxdepth: 1
-
    preparing-scenario-submissions/model-registration
-
-   - Option 1. Registration using an Excel template
-   - Option 2. Registration using a GitHub Pull Request
-
-
-.. toctree::
-   :maxdepth: 1
-
    preparing-scenario-submissions/data-format
+
+In these pages, you will learn how to:
+
+- register a Scenario Services account
+- setup access and upload permissions for a Scenario App
+- register a model for a project
+- format and preprocess data for upload in a Scenario App
+
+At the end of this tutorial, you will have gathered all the requirements to submit
+scenarios for a project's Scenario App.
+
+.. tip::
+
+   To learn about Scenario Apps' features and how to submit scenarios, go to
+   :ref:`_scenario-apps`.
 

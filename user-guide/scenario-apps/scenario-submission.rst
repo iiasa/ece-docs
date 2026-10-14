@@ -48,7 +48,7 @@ executes a scenario-processing workflow including *region-aggregation* and *scen
 validation* prior to saving the scenario to the database. The processing uses the
 **nomenclature** package (`read the docs <https://nomenclature-iamc.readthedocs.io>`_).
 
-The region-aggregation and validation is configured via a project-specific GitHub_
+The region-aggregation and validation is configured via a project-specific GitHub
 repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please contact
 the respective project managers or the Scenario Services team if you need access.
 
