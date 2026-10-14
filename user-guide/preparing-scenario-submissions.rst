@@ -15,6 +15,7 @@ accounts to preparing the data for upload:
   - Accessing a Scenario Explorer App
   - Upload Permissions for a Scenario App
 
+
 .. toctree::
    :maxdepth: 1
 
@@ -22,6 +23,7 @@ accounts to preparing the data for upload:
 
    - Option 1. Registration using an Excel template
    - Option 2. Registration using a GitHub Pull Request
+
 
 .. toctree::
    :maxdepth: 1
