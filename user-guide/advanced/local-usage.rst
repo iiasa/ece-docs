@@ -69,7 +69,7 @@ Validation and region-processing
 
 A more elaborate use case is to perform validation against the codelists and use the
 `RegionProcessor`_ to aggregate timeseries from "native regions" of a model to
-"common regions" (see :ref:`regions` for more on native and common regions).
+"common regions" (see :ref:`regions` for more information on this standard).
 
 .. code-block:: python
 
