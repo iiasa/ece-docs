@@ -1,1 +1,1 @@
-.. _map_explorer:
+.. _map-explorer:

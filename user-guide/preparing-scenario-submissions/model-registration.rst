@@ -1,4 +1,4 @@
-.. _model_registration:
+.. _model-registration:
 
 Model registration
 ==================

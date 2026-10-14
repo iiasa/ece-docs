@@ -1,1 +1,1 @@
-.. _data_explorer:
+.. _data-explorer:

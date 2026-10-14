@@ -1,12 +1,12 @@
 .. _manager:
 
-Access and Permission Management
+Access and permission management
 ================================
 
 There are public and project-internal (private) database instances or **platforms**.
 Access to project-internal platforms is managed via the `Scenario Services Manager`_.
 
-.. _user_registration:
+.. _user-registration:
 
 Registering in a Scenario App
 -----------------------------
@@ -15,7 +15,7 @@ To register a new user account, go to https://manager.ece.iiasa.ac.at/register.
 Once you click **Register**, a message will be sent to the registered e-mail address
 to validate the account.
 
-.. _scenario_app_access:
+.. _scenario-app-access:
 
 Accessing a Scenario App
 ------------------------
@@ -41,9 +41,9 @@ account and send the username to an administrator from the IIASA Scenario Servic
 team and the appropriate project manager(s).
 If you require upload permission, see the next step.
 
-.. _upload_permissions:
+.. _upload-permissions:
 
-Upload Permissions for a Scenario App
+Upload permissions for a Scenario App
 -------------------------------------
 
 In order to submit scenarios to the Scenario Explorer, the user must be registered
@@ -57,15 +57,15 @@ specifying the model name(s) and version(s) to be uploaded (e.g.:
 You can see all public and private database instances to which you can upload data
 in the *Services* tab of the manager.
 You can also confirm the model(s) you can upload in the Scenario App, in the
-**Scenario Submission** page, see :ref:`scenario_submission`.
+**Scenario Submission** page, see :ref:`scenario-submission`.
 
 .. tip::
 
-   To learn how to prepare data for scenario submission, go to :ref:`data_format`.
+   To learn how to prepare data for scenario submission, go to :ref:`data-format`.
 
-.. _group_manager:
+.. _group-manager:
 
-Managing User Permissions
+Managing user permissions
 -------------------------
 
 Users can also be **Group Managers**, allowing them to manage user membership

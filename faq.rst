@@ -27,3 +27,7 @@ You can also look at the `common-definitions`_ repository for a list of variable
 and regions used in several projects to get an idea of typical use cases.
 
 .. _common-definitions: https://github.com/iamconsortium/common-definitions
+
+.. rubric:: My scenario submission to a Scenario App failed. How do I proceed?
+
+For a list of common data upload errors, please see :ref:`scenario-submission-errors`.
