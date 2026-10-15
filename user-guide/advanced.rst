@@ -13,3 +13,4 @@ processing modules to incorporate into the upload pipeline, see below:
    advanced/query-iiasa-databases
    advanced/local-usage
    advanced/processing-requirements
+   advanced/scenario-workflow
