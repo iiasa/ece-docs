@@ -4,14 +4,14 @@
 
   This is the last step of the **Preparing Scenario Submissions** user guide.
 
-  To learn how to submit scenarios in the Scenario App, go to :ref:`scenario_submission`.
+  To learn how to submit scenarios in the Scenario App, go to :ref:`scenario-submission`.
 
 Formatting data in IAMC format
 ==============================
 
 You can confirm the full list of definitions (allowed values) for your IAMC data
 dimensions by checking the project GitHub repository or by downloading the data
-template at: http://files.ece.iiasa.ac.at/<project>/<project>-template.xlsx
+template at: ``http://files.ece.iiasa.ac.at/<project>/<project>-template.xlsx``
 
 If you are familiar with Python and git, you have the option to run validation
 locally using nomenclature. For more information, see :ref:`local-validation`.

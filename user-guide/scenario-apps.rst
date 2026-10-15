@@ -16,6 +16,6 @@ The following steps guide users on the features available in the
 In these pages, you will learn how to:
 
 - use the Scenario Submission page to upload IAMC data
-- use the Data Explorer page to visualise IAMC data graphs and tables, and create
+- use the Data Explorer page to visualize IAMC data graphs and tables, and create
   workspaces
-- use the Map Explorer to visualise IAMC data geographically
+- use the Map Explorer to visualize IAMC data geographically

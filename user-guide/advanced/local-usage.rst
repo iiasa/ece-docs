@@ -104,6 +104,7 @@ This can be useful to test the specific processing steps configured for the proj
 These can include, as seen above, region-aggregation, and codelist validation.
 These workflows are usually implemented as a ``main()`` function in ``workflow.py``
 of a project repository.
+To see a breakdown of a typical workflow, see :ref:`project-workflow`.
 
 To run the project workflow locally, use the following command on a scenario data
 file using the terminal:
