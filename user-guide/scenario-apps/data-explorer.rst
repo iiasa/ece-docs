@@ -27,6 +27,17 @@ Data Explorer
 
    The Table data visualization.
 
+.. _downloading:
+
+Downloading data
+^^^^^^^^^^^^^^^^
+
+In the chart panel, click the |download| **Download** button, and then select
+the "Data CSV" option. This will start a download for the current data selection.
+
+.. |download| image:: ../../_static/download.png
+   :height: 22
+
 Advanced Data Selection
 -----------------------
 
@@ -47,8 +58,8 @@ In this menu, you have two sections:
     to their values (value match, range selection, etc.).
 
 - the Matches panel shows a list of the model-scenario combinations that match
-the selected filters in the Filter panel. The **Select All Displayed** |select-all|
-and |select-none| buttons conveniently add/remove all matches from the selection.
+  the selected filters in the Filter panel. The **Select All Displayed** |select-all|
+  and |select-none| buttons conveniently add/remove all matches from the selection.
 
 .. |select-all| image:: ../../_static/select-all.png
    :width: 22

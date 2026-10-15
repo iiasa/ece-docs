@@ -67,3 +67,24 @@ by app managers and administrators.
 
 On the top bar of the "Data Explorer", select the dotted line document icon
 **"Show variables, regions and scenarios where no data exists given the applied filters"**.
+
+IAMC Data
+---------
+
+.. rubric:: How can I download IAMC data from a Scenario App?
+
+There are two main options:
+
+- see :ref:`downloading` on how to download scenario data from a Data Explorer.
+- you can download data as an IamDataFrame using **pyam**
+  (`read the docs <https://pyam-iamc.readthedocs.io>`_).
+  Simply run the following line, adding filters for model and scenario name as needed:
+
+  .. code:: python
+    
+    df = pyam.read_iiasa(
+      "project-name",
+      model="..",
+      scenario="..",
+      variable="..",
+    )
