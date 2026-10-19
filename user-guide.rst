@@ -9,4 +9,5 @@ with the suite of tools developed and provided by the IIASA Scenario Services te
 
    user-guide/preparing-scenario-submissions
    user-guide/scenario-apps
+   user-guide/nomenclature
    user-guide/advanced
