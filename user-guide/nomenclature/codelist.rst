@@ -15,14 +15,12 @@ folder called *variable* it will be used for validation of the "variable" dimens
 of a scenario data file.
 
 See the format for a generic codelist below; the dimensions :ref:`variable <variables>`
-and :ref:`region <regions>` have a special structure and format.
+and :ref:`region <region-codelist>` have a special structure and format.
 
 .. note::
 
-  To read about more in-depth implementation of codelists,
-  see the **nomenclature** documentation :ref:`here <CodeList>`.
-
-.. _CodeList: https://nomenclature-iamc.readthedocs.io/en/stable/api/codelist.html
+  To read about more in-depth implementation of codelists, see the **nomenclature**
+  documentation `here <https://nomenclature-iamc.readthedocs.io/en/stable/api/codelist.html>`_.
 
 The generic codelist format
 ---------------------------
