@@ -1,14 +1,23 @@
 .. _nomenclature-config:
 
-LINK TO SCENARIO-WORKFLOW
-
 General project configuration
 =============================
+
+Each project instance hosted in the Scenario Services infrastructure requires a
+configuration file with a standardized format.
 
 The following features can be accessed via a general project configuration file:
 
 - Import codelists and mappings from public GitHub repositories
 - Add all countries to the region codelist (details: :ref:`countries`)
+- Setup processors for region aggregation
+
+These settings are then read into the project's workflow script for scenario
+submission.
+
+.. tip::
+
+  To learn more about workflow scripts, see :ref:`project-workflow`.
 
 Configuration file format
 -------------------------
@@ -17,6 +26,26 @@ The configuration file **must** be located on the same level as the *mappings*
 and *definitions* directories.
 
 The file **must** be in YAML format and named *nomenclature.yaml*.
+
+Specify dimensions to be read
+-----------------------------
+
+The configuration file offers the possibility to set the dimensions which will be
+read by *DataStructureDefinition*, overriding the dimensions from the *definitions*
+sub-directories.
+
+If no sub-directories exist (e.g.: when importing dimensions from external
+repositories), setting dimensions in the configuration file is **mandatory**.
+
+In the below case we specify *region*, *variable* and *scenario* to be read and
+used for validation:
+
+.. code:: yaml
+
+  dimensions:
+    - region
+    - variable
+    - scenario
 
 Importing from an external repository
 -------------------------------------
@@ -162,26 +191,6 @@ In the example above, the package will add: NUTS 1 regions for Austria, Belgium
 and Czechia, NUTS 2 regions for Austria, NUTS 3 regions for all EU countries.
 
 More details on the list of NUTS regions can be found here: :ref:`nuts`.
-
-Specify dimensions to be read
------------------------------
-
-The configuration file offers the possibility to set the dimensions which will be
-read by *DataStructureDefinition*, overriding the dimensions from the *definitions*
-sub-directories.
-
-If no sub-directories exist (e.g.: when importing dimensions from external
-repositories), setting dimensions in the configuration file is **mandatory**.
-
-In the below case we specify *region*, *variable* and *scenario* to be read and
-used for validation:
-
-.. code:: yaml
-
-  dimensions:
-    - region
-    - variable
-    - scenario
 
 Configuring processors
 ----------------------
