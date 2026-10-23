@@ -11,27 +11,27 @@ maintenance requirements, and guarantee reproducibility of results across platfo
 General requirements
 --------------------
 
-* The program, code or tool must be implemented in Python (≥3.11) or R (≥4.1);
+- The program, code or tool must be implemented in Python (≥3.11) or R (≥4.1);
   compiled executables are not acceptable for security reasons
-* Distribution of the source code
+- Distribution of the source code
 
-  * via an online version-controlled repository
+  - via an online version-controlled repository
     (preferably GitHub) to which the IIASA admin team has access; or
-  * installation via a package manager (pip, conda, CRAN)
+  - installation via a package manager (pip, conda, CRAN)
 
-* The program must run on Debian (preferably Ubuntu)
-* The dependencies must be clearly stated,
+- The program must run on Debian (preferably Ubuntu)
+- The dependencies must be clearly stated,
   e.g. as Dockerfile (describing execution environment, library dependencies etc.),
   Python package dependencies according to packaging user guide,
   (e.g. as environment.yml, requirements.txt etc.), or
   R dependencies
-* The license must be clearly stated
-* The documentation of the program, code or tool must include:
+- The license must be clearly stated
+- The documentation of the program, code or tool must include:
 
-  * Purpose of the program and individual top-level functions
-  * Instructions how to run the program
-  * Expected input (variables, region mappings) and standard output
-  * Explanation of any settings and optional parameters
+  - Purpose of the program and individual top-level functions
+  - Instructions how to run the program
+  - Expected input (variables, region mappings) and standard output
+  - Explanation of any settings and optional parameters
 
 Application programming interface
 ---------------------------------
@@ -41,10 +41,10 @@ Option 1
 
 The module is called via a command-line interface (CLI) and takes the following arguments:
 
-* :code:`input`: path to an IAMC-formatted file (:code:`.xlsx` or :code:`.csv`)
-* :code:`output`: path where to write an output file
+- :code:`input`: path to an IAMC-formatted file (:code:`.xlsx` or :code:`.csv`)
+- :code:`output`: path where to write an output file
   (usually derived timeseries data) in the same format
-* Any relevant settings and optional parameters must also be specified
+- Any relevant settings and optional parameters must also be specified
   via the CLI
 
 e.g. :code:`"python process.py --input path-to-input-file.xlsx --output path-to-output-file.xlsx"`

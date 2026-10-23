@@ -35,18 +35,18 @@ This example illustrates a model mapping:
 The properties *model* and (at least) one of *native_regions* and *common_regions* are
 required in a valid model mapping. See :ref:`regions` for more information.
 
-*  *model* (str or list of str): the model name(s) for which the mapping applies.
-*  *native_regions* (list): a list of model native regions serves as
+-  *model* (str or list of str): the model name(s) for which the mapping applies.
+-  *native_regions* (list): a list of model native regions serves as
    a selection as to which regions to keep.
 
-   *  In the above example *region_a* is to be renamed to
+   -  In the above example *region_a* is to be renamed to
       *alternative_name_a*. This is done by defining a key-value pair
       of *model_native_name: new_name*.
-   *  *region_b* is selected but the name is not changed.
-   *  Assuming *model_a* also defines a third region *region_c*,
+   -  *region_b* is selected but the name is not changed.
+   -  Assuming *model_a* also defines a third region *region_c*,
       since it is not mentioned it will be **dropped** from the data.
 
-*  *common_regions* (list): list of common regions which will be computed as aggregates.
+-  *common_regions* (list): list of common regions which will be computed as aggregates.
    They are defined as list entries which themselves have a list of constituent regions.
    These constituent regions must be model native regions.
 
@@ -54,7 +54,7 @@ required in a valid model mapping. See :ref:`regions` for more information.
    region names, i.e., *region_a* and *region_b*, **not** *alternative_name_a*
    in the example shown above.
 
-* *exclude_regions* optional (list of str): If input data for region processing contains
+- *exclude_regions* optional (list of str): If input data for region processing contains
   regions which are not mentioned in *native_regions*, in *common_regions* (as the name
   of a common region or a constituent region) an error will be raised. This is a
   safeguard against silently dropping regions which are not in named in *native_regions*
@@ -115,12 +115,12 @@ and the data aggregated according to the region mapping, perform the following s
   dsd = DataStructureDefinition("definitions")
   processor = RegionProcessor.from_directory("mappings", dsd)
 
-  # get the differences as a pandas dataframe
-  # the value for the relative tolerances can be adjusted, defaults to 0.01
+  # Get the differences as a Pandas DataFrame
+  # The value for the relative tolerances can be adjusted (default = 0.01)
   processed_data, differences = processor.check_region_aggregation(data, rtol_difference=0.01)
-  # save the result of the region processing
+  # Save the result of the region processing...
   processed_data.to_excel("results.xlsx")
-  # and the differences
+  # ... and the differences
   differences.to_excel("differences.xlsx")
 
 Please refer to `RegionProcessor`_ for details.

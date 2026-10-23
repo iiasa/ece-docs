@@ -1,6 +1,5 @@
 .. _codelist:
 
-
 The CodeList class
 ==================
 
@@ -34,10 +33,10 @@ In the most simple case, a codelist consists of a list of strings or mappings, e
       description: A description of allowed_value_b
   - ...
 
-* The yaml file must be formatted as a list (i.e. entries start with a dash '-').
-* Entries can either be a string (e.g. 'allowed_value_a') or a nested dictionary
+- The yaml file must be formatted as a list (i.e. entries start with a dash '-').
+- Entries can either be a string (e.g. 'allowed_value_a') or a nested dictionary
   (see the example of 'allowed_value_b').
-* When instantiating a ``DataStructureDefinition`` with dimensions other than
+- When instantiating a ``DataStructureDefinition`` with dimensions other than
   'region' and 'variable', a list of *dimensions*  must be provided explicitly.
 
 The "tag" feature
@@ -55,7 +54,8 @@ to be used as tag. The files defining the tags must be named like ``tag_*.yaml``
 
 When importing a tagged codelist, any code containing ``{Tag}`` in its name will
 be replaced by the name of the corresponding tag. In addition any code attributes
-containing ``{Tag}`` will also be replaced. If the corresponding tag contains the attribute, this will be used for substitution, otherwise the tag name is used.
+containing ``{Tag}`` will also be replaced. If the corresponding tag contains the
+attribute, this will be used for substitution, otherwise the tag name is used.
 
 To illustrate, consider the following variable:
 

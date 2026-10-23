@@ -47,6 +47,8 @@ used for validation:
     - variable
     - scenario
 
+.. _external-repos:
+
 Importing from an external repository
 -------------------------------------
 
