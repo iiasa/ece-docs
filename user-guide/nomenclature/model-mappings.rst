@@ -136,4 +136,4 @@ Alternatively you can also use the nomenclature CLI:
 
 For details, please refer to the `CLI documentation`_.
 
-.. _ `CLI documentation`: https://nomenclature-iamc.readthedocs.io/en/stable/cli.html
+.. _CLI documentation: https://nomenclature-iamc.readthedocs.io/en/stable/cli.html

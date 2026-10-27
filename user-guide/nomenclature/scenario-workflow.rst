@@ -49,8 +49,7 @@ Below, you can see a simple example and the breakdown of its four main steps:
 
 	.. tip::
 
-	  For more information on mappings and importing from external repositories, see:
-    :ref:`external-repos`
+	  For more information on mappings and importing from external repositories, see: :ref:`external-repos`
 
   - Other specialised processors are available, such as the ``CountryProcessor``
     (for aggregating multi-country regions) and the ``NUTSProcessor``
