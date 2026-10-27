@@ -5,7 +5,7 @@ Variables in the IAMC format
 
 The 'variable' column of the IAMC format describes the type of information represented
 in the specific timeseries. The variable name implements a "semi-hierarchical" structure
-using the :code:`|` character (*pipe*, not l or i) to indicate the structure or "depth".
+using the ``|`` character (*pipe*, not l or i) to indicate the structure or "depth".
 Names (should) follow a structure like *Category|Subcategory|Specification*.
 
 Semi-hierarchical means that a hierarchy can be imposed, e.g., one can enforce
@@ -21,21 +21,28 @@ Variable naming conventions
 
 A variable name should adhere to the following conventions:
 
-* A :code:`|` (pipe) character indicates levels of hierarchy.
-* Do not use spaces before and after the :code:`|` character,
-  but add a space between words, e.g. :code:`Primary Energy|Non-Biomass Renewables`
+- A ``|`` (pipe) character indicates levels of hierarchy.
+- Do not use spaces before and after the ``|`` character, but add a space between words
 
-* Do not use abbreviations (e.g, *PHEV*) unless strictly necessary.
-* Do not use abbreviations of statistical operations (*min*, *max*,
-  *avg*) but always spell out the term.
-* All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
-* If necessary to add a method or operation-identifier (e.g., Share, per capita)
-  to a variable name, add it in square brackets, e.g. :code:`Population|Urban [Share]`
+  .. code:: yaml
+
+    Primary Energy|Non-Biomass Renewables
+
+- Do not use abbreviations (e.g, *PHEV*) unless strictly necessary.
+- Do not use abbreviations of statistical operations (*min*, *max*, *avg*) but
+  always spell out the term.
+- All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
+- If necessary to add a method or operation-identifier (e.g., Share, per capita)
+  to a variable name, add it in square brackets, e.g.,
+
+  .. code:: yaml
+
+    Population|Urban [Share]
 
 Units
 -----
 
-The **unit** associated with a variable should be compatible with the
-`iam-units <https://github.com/iamconsortium/units>`_ package.
-Alternatively, a variable can be *dimensionless*, i.e., not have a unit. An example of
-such a dimensionless variable are indices, e.g., the *Human Development Index*.
+The **unit** associated with a variable should be compatible with the `iam-units
+<https://github.com/iamconsortium/units>`_ package.
+Alternatively, a variable can be *dimensionless*, i.e., not have a unit.
+An example of such a dimensionless variable are indices, e.g., the *Human Development Index*.
