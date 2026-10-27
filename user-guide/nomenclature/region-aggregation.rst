@@ -125,15 +125,15 @@ and the data aggregated according to the region mapping, perform the following s
 
 Please refer to `RegionProcessor`_ for details.
 
-.. _`RegionProcessor`: https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html
+.. _RegionProcessor: https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html
 
-Alternatively you can also use the nomenclature cli:
+Alternatively you can also use the nomenclature CLI:
 
 .. code-block:: bash
 
   $ nomenclature check-region-aggregation /path/to/your/input/data.xlsx
   -w workflow_directory --processed_data results.xlsx --differences differences.xlsx
 
-For cli details please refer to the `cli documentation`_.
+For details, please refer to the `CLI documentation`_.
 
-.. _ `cli documentation`: https://nomenclature-iamc.readthedocs.io/en/stable/cli.html
+.. _ `CLI documentation`: https://nomenclature-iamc.readthedocs.io/en/stable/cli.html
