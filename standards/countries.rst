@@ -29,10 +29,10 @@ country-names and easily translate between country names and alpha-3/alpha-2 cod
 
   from nomenclature import countries
 
-  # list of country names
+  # Get list of country names
   countries.names
 
-  # mappings between alpha_3 (ISO3), alpha_2 and country names
+  # Mappings between alpha_3 (ISO3), alpha_2 and country names
   name = countries.get(alpha_3="...").name
   alpha_3 = countries.get(name="...").alpha_3
   alpha_2 = countries.get(name="...").alpha_2
