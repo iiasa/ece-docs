@@ -70,4 +70,4 @@ Below, you can see a simple example and the breakdown of its four main steps:
       
   	  For more information on common regions, see: :ref:`regions`
 
-	    For more information on region aggregation, see: :ref:`region-aggregation`
+	    For more information on region aggregation, see: :ref:`model-mappings`

@@ -1,4 +1,4 @@
-.. _region-aggregation:
+.. _model-mappings:
 
 Region processing using model mappings
 ======================================
