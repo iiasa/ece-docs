@@ -124,7 +124,7 @@ The visualization is displayed on the left side of the visualization section.
 The legend is displayed on the right side. You have the option to collapse the
 legend by clicking the |hide-legend| **Hide Legend** button.
 
-.. |hide-legend| image:: ../../_static/zoom-in.png
+.. |hide-legend| image:: ../../_static/hide-legend.png
    :height: 22
 
 .. figure:: ../../_static/data-explorer-2.png
@@ -223,12 +223,10 @@ For this, click the |adv| button on the top left corner of the Scenarios panel.
 .. |adv| image:: ../../_static/adv.png
    :width: 22
 
-In this menu, you have two sections:
+In this menu, you have two sections. The Filter panel allows you to:
 
-- the Filter panel allows you to:
-
-  - **Filter by Name:** select models and/or scenarios by typing the names and
-    confirming the filter selection from a drop-down menu.
+- **Filter by Name:** select models and/or scenarios by typing the names and
+  confirming the filter selection from a drop-down menu.
 
 .. figure:: ../../_static/advanced-scenario-selection-1.png
    :width: 600px
@@ -236,8 +234,8 @@ In this menu, you have two sections:
 
    The Filter by Name tab.
 
-  - **Filter by Meta-Indicator:** select meta-indicators and apply filters according
-    to their values (value match, range selection, etc.).
+- **Filter by Meta-Indicator:** select meta-indicators and apply filters according
+  to their values (value match, range selection, etc.).
 
 .. figure:: ../../_static/advanced-scenario-selection-2.png
    :width: 600px
@@ -245,9 +243,9 @@ In this menu, you have two sections:
 
    The Filter by Meta-Indicator tab.
 
-- the Matches panel shows a list of the model-scenario combinations that match
-  the selected filters in the Filter panel. The **Select All Displayed** |select-all|
-  and |select-none| buttons conveniently add/remove all matches from the selection.
+The Matches panel shows a list of the model-scenario combinations that match
+the selected filters in the Filter panel. The **Select All Displayed** |select-all|
+and |select-none| buttons conveniently add/remove all matches from the selection.
 
 .. |select-all| image:: ../../_static/select-all.png
    :width: 22
