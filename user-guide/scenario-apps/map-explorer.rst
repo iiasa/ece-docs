@@ -51,7 +51,7 @@ region definitions.
 On the right section of the toolbar, there are the following buttons:
 
 - |minus| |plus| **-/+** to zoom the map in/out
-- |settings| **Visualiation Settings** to select number of data classes, color scheme,
+- |settings| **Visualization Settings** to select number of data classes, color scheme,
   and color for missing values
 - |info| **About this Map** to read more information on the geodata used for the
   Map Explorer
