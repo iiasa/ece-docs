@@ -61,6 +61,7 @@ Table of Contents
    standards
    software
    user-guide
+   faq
 
 License & Source
 ----------------

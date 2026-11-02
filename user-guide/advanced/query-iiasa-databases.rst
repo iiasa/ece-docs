@@ -3,9 +3,10 @@
 Querying IIASA databases
 ========================
 
-You can query scenario data from an IIASA database instance directly via Python, R or a
-Rest API. The **pyam** package allows to directly query both the new *Scenario Apps*
-and the (legacy) *Scenario Explorer* databases (2018-2024).
+You can query scenario data from an IIASA database instance directly via Python,
+R or a Rest API.
+The **pyam** package allows to directly query both the new *Scenario Apps* and
+the (legacy) *Scenario Explorer* databases (2018-2024).
 
 .. code:: python
 
@@ -19,7 +20,7 @@ filter by model, scenario or variable.
 
     Learn more about the Python package **pyam** on `Read The Docs`_.
 
-    There is a tutorial_ to use **pyam** with **R** via the **reticulate** package.
+    There is a `tutorial`_ to use **pyam** with **R** via the **reticulate** package.
 
 .. _`Read The Docs`: https://pyam-iamc.readthedocs.io
 
@@ -27,14 +28,14 @@ filter by model, scenario or variable.
 
 The approach for more complex queries depends on the database backend:
 
-- :ref:`ixmp4`
-- :ref:`legacy`
+* :ref:`ixmp4`
+* :ref:`legacy`
 
 .. note::
 
     **Access and permission management for project-internal databases**
 
-    By default, your can connect to all public scenario database instances via the API.
+    By default, you can connect to all public scenario database instances via the API.
     If you have permission to connect to a private, project-internal database instance,
     you can set your credentials by running the following command in a console:
 
@@ -42,34 +43,37 @@ The approach for more complex queries depends on the database backend:
 
          ixmp4 login <username>
 
-    You will be prompted to enter your password.
+    You will be prompted to enter your password (Scenario Services Manager account).
 
     *Your username and password will be saved locally in plain-text for future use.*
 
 .. _ixmp4:
 
-*Scenario Apps* and **ixmp4** instances
----------------------------------------
+*Scenario Apps* and ixmp4 instances
+-----------------------------------
 
 New *Scenario Explorer* instances (set up since 2025) use the *ScSe Apps infrastructure*
-and the **ixmp4** package as a database backend. You can list all **ixmp4** platforms
-hosted by IIASA (and to which you have access) using :func:`pyam.iiasa.platforms()`.
+and the **ixmp4** package as a database backend.
+You can list all **ixmp4** platforms hosted by IIASA (and to which you have access)
+using :func:`pyam.iiasa.platforms()`.
 
-You can use :func:`pyam.read_iiasa()` for simple queries or the **ixmp4** package for
-connecting to a platform and executing other requests.
+You can use :func:`pyam.read_iiasa()` for simple queries or the **ixmp4** package
+for connecting to a platform and executing other requests.
 
 .. code:: python
 
     import ixmp4
 
-    # connect to a database platform
+    # Connect to a database platform
     platform = ixmp4.Platform("<slug>")
 
-    # get a table of all "scenario runs" in the database
+    # Get a table of all "scenario runs" in the database
     platform.runs.tabulate()
 
-    # get a table of all IAMC variables
+    # Get a table of all IAMC variables
     platform.iamc.variables.tabulate()
+
+To learn more about scenario runs, see `future link here`_.
 
 .. _legacy:
 
@@ -80,18 +84,18 @@ You can use the **pyam** package to connect to a legacy *Scenario Explorer* inst
 developed by the Scenario Services and Scientific Software team from 2018 until 2024.
 
 You can use :func:`pyam.read_iiasa()` for simple queries or the
-:class:`pyam.iiasa.Connection` class to get a list of available instances or for more
-elaborate queries.
+:class:`pyam.iiasa.Connection` class to get a list of available instances or
+for more elaborate queries.
 
 .. code:: python
 
     import pyam
 
-    # get a list of all available legacy database instances
+    # Get a list of all available legacy database instances
     pyam.iiasa.Connection().valid_connections
 
-    # connect to a specific legacy database instance
+    # Connect to a specific legacy database instance
     database = pyam.iiasa.Connection("<slug>")
 
-    # get a table of all scenarios in this database
+    # Get a table of all scenarios in this database
     database.properties()
