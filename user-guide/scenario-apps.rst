@@ -12,6 +12,7 @@ The following steps guide users on the features available in the
    scenario-apps/scenario-submission
    scenario-apps/data-explorer
    scenario-apps/map-explorer
+   scenario-apps/resources
 
 In these pages, you will learn how to:
 
@@ -19,3 +20,4 @@ In these pages, you will learn how to:
 - use the Data Explorer page to visualize IAMC data graphs and tables, and create
   workspaces
 - use the Map Explorer to visualize IAMC data geographically
+- access project documentation in the Resources pages

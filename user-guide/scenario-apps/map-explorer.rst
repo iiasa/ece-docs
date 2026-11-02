@@ -3,7 +3,7 @@
 Map Explorer
 ============
 
-The Map Explorer allows users to visually explore scenario data with the aid of
+The Map Explorer allows you to visually explore scenario data with the aid of
 a map projection. With this tool, it is possible to:
 
 - view data according to their original geographical resolution
@@ -27,8 +27,10 @@ Data Selection
 
    The Map Explorer data selection toolbar.
 
-The data selection toolbar expands to reveal a three-part menu where users select
+The data selection toolbar expands to reveal a three-part menu where you select
 one |region| region aggregation, one |variable| variable, and one |scenario| scenario.
+Available selections are updated when each data filter is selected to only include
+combinations for which data is available.
 A reminder message will be displayed on top of the map view while the selection
 is incomplete.
 
@@ -42,7 +44,7 @@ is incomplete.
    :height: 16
 
 Unlike the Data Explorer, this interface doesn't select specific regions;
-instead, users can select the region aggregation to apply to the world map.
+instead, you can select the region aggregation to apply to the world map.
 These can be standard territories, like countries or continents, or model-specific
 region definitions.
 
@@ -55,11 +57,7 @@ On the right section of the toolbar, there are the following buttons:
   Map Explorer
 - |share| **Share Map** to copy the link to the current map view (and data selection)
   to share with other users with access to the Scenario App
-- |clear-filter| **Clear Selection and Filters** button to reset the map to a blank
-  slate
-
-.. |share| image:: ../../_static/share.png
-   :height: 22
+- |clear-filter| **Clear Selection and Filters** to reset the map to a blank slate
 
 .. |plus| image:: ../../_static/plus.png
    :height: 22
@@ -68,6 +66,12 @@ On the right section of the toolbar, there are the following buttons:
    :height: 22
 
 .. |settings| image:: ../../_static/settings.png
+   :height: 22
+
+.. |info| image:: ../../_static/info.png
+   :height: 22
+
+.. |share| image:: ../../_static/share.png
    :height: 22
 
 .. |clear-filter| image:: ../../_static/clear-filter.png
