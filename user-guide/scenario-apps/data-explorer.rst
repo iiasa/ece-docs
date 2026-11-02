@@ -93,7 +93,7 @@ click the |plus| **Create a new workspace** button. The current selection will b
 .. |plus| image:: ../../_static/plus.png
    :height: 22
 
-.. figure:: ../../_static/load-workspaces.png
+.. figure:: ../../_static/load-workspace.png
    :width: 300px
    :align: center
 
