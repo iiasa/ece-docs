@@ -3,10 +3,10 @@
 Common definitions
 ==================
 
-The *common-definitions* repository (`GitHub`_) holds definitions and mappings for model-comparison
-projects using the IAMC data format.
-The aim is to provide a central location to facilitate reuse of definitions and
-mappings across projects.
+The *common-definitions* repository (`GitHub`_) is a central location for definitions
+and mappings used across model-comparison projects based on the IAMC data format.
+This facilitates reuse of standardized naming conventions and allows easier comparison
+of results between different projects and studies.
 
 This project uses the Python package `nomenclature-iamc`_ for management of
 codelists and validation of scenario data in the IAMC data format.
@@ -20,7 +20,7 @@ Within the Scenario Services infrastructure, *common-definitions* is used by
 A workflow repository contains the definitions and mappings used for a given
 project, a configuration file, and a workflow script file.
 For projects using codelists stored in *common-definitions*, the configuration
-file in the repository can specify which ones to include/exclude.
+file in the repository can specify which ones to include or exclude.
 
 To learn how to import from *common-definitions*, see the `user guide`_ in the
 `nomenclature` documentation.
