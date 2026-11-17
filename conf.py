@@ -87,4 +87,7 @@ rst_prolog = """
 
    <a href="https://software.ece.iiasa.ac.at">Scenario Services and Scientific Software team</a> 
    in the <em>Energy, Climate, and Environment</em> program (ECE) at IIASA
+
+.. |nomenclature| replace:: :class:`nomenclature` package (`read the docs <https://nomenclature-iamc.readthedocs.io>`_) 
+
 """
