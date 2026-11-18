@@ -28,7 +28,8 @@ A variable name should adhere to the following conventions:
 
     Primary Energy|Non-Biomass Renewables
 
-- Do not use abbreviations (e.g, *PHEV*) unless strictly necessary.
+- Do not use abbreviations unless strictly necessary or common in general discourse.
+  For example, *CCS* is ok, but *PHEV* should be avoided.
 - Do not use abbreviations of statistical operations (*min*, *max*, *avg*) but
   always spell out the term.
 - All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
