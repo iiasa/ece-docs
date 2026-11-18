@@ -62,6 +62,7 @@ Table of Contents
    software
    user-guide
    faq
+   archive
 
 License & Source
 ----------------
