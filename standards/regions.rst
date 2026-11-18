@@ -19,7 +19,7 @@ following the common list of countries (see :ref:`countries`).
 
 .. info::
 
-    Refer to the `Naming conventions for native model regions`_ for more information!
+    Refer to the `naming-conventions`_ for more information!
 
 Common regions
 --------------
@@ -45,14 +45,33 @@ guide on :ref:`model-mappings` and the API documentation for the `RegionProcesso
 
 .. _`RegionProcessor`: <https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html>_`
 
-Region attributes
------------------
+.. _region-codelist:
+
+Region format specification
+---------------------------
+
+Each region **must** be part of a hierarchy, which means that the following nested
+list structure is required:
+
+.. code:: yaml
+
+   - Hierarchy 1:
+     - Region 1:
+         description: Some short explanation
+         countries: [Country 1, Country 2, ...]
+     - Region 2:
+         description: Some short explanation
+   - Hierarchy 2:
+     - ...
+
 
 Regions can have attributes, for example a description or a list of countries comprised
-in that region. If the attributes `countries` and/or `iso3_codes` are provided, the
-item(s) are validated against a list of valid ISO3 country names/codes adapted from the
-:py:mod:`nomenclature.countries` module. More details on the list of countries can be
-found :ref:`here <countries>`.
+in that region. If the attributes `countries` is provided, the item(s) are
+validated against a list of valid ISO3 country names adapted from the
+:py:mod:`nomenclature.countries` module.
+More details on the list of countries can be found :ref:`here <countries>`.
+
+.. _naming-conventions:
 
 Naming conventions for native model regions
 -------------------------------------------
