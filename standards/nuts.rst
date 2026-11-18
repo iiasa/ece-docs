@@ -21,13 +21,11 @@ The |SCSE team| also provides geojson files of the NUTS regions via a dedicated
 
   from nomenclature import nuts
 
-  # Get list of NUTS region codes
-  ### this does't work, please double-check!
-  nuts.codes
+  # Get list of NUTS regions for Austria
+  nuts.get(country_code="AT")
   
-  # Get list of NUTS region names
-  ### this does't work, please double-check!
-  nuts.names
+  # Get list of all NUTS2 regions
+  nuts.get(level=2)
 
 .. _`NUTS classification`: https://ec.europa.eu/eurostat/web/nuts
 
