@@ -8,8 +8,8 @@ and mappings used across model-comparison projects based on the IAMC data format
 This facilitates reuse of standardized naming conventions and allows easier comparison
 of results between different projects and studies.
 
-This project uses the Python package `nomenclature-iamc`_ for management of
-codelists and validation of scenario data in the IAMC data format.
+This project uses the |nomenclature| for management of codelists and validation
+of scenario data in the IAMC data format.
 
 Integration in project workflows
 --------------------------------
@@ -23,9 +23,7 @@ For projects using codelists stored in *common-definitions*, the configuration
 file in the repository can specify which ones to include or exclude.
 
 To learn how to import from *common-definitions*, see the `user guide`_ in the
-`nomenclature` documentation.
-
-.. _`nomenclature-iamc`: https://nomenclature-iamc.readthedocs.io/en/stable/
+nomenclature documentation.
 
 .. _GitHub: https://github.com/IAMconsortium/common-definitions
 
