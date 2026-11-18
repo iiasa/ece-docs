@@ -21,9 +21,9 @@ Below, you can see a simple example and the breakdown of its four main steps:
     def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         """Project/instance-specific workflow for scenario processing"""
 
-        dsd = DataStructureDefinition(here / "definitions")
-        processor = RegionProcessor.from_directory(path=here / "mappings", dsd=dsd)
-        return process(df, dsd, processor=processor)
+        definition = DataStructureDefinition(here / "definitions")
+        processor = RegionProcessor.from_directory(path=here / "mappings", definition)
+        return process(df, definition, processor=processor)
 
 
 1. Importing the Python dependencies, **pyam** and **nomenclature**
