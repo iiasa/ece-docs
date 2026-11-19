@@ -22,9 +22,7 @@ project, a configuration file, and a workflow script file.
 For projects using codelists stored in *common-definitions*, the configuration
 file in the repository can specify which ones to include or exclude.
 
-To learn how to import from *common-definitions*, see the `user guide`_ in the
-nomenclature documentation.
+To learn how to import from *common-definitions*, see the
+:ref:`user guide <external-repos>`.
 
 .. _GitHub: https://github.com/IAMconsortium/common-definitions
-
-.. _user guide: https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/config.html#importing-from-an-external-repository

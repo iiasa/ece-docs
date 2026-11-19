@@ -97,8 +97,7 @@ The preferred approach for model registration is starting a GitHub pull request.
 Please contact the administrators if permissions for the project repository
 are required.
 
-Please follow the `Model registration user guide
-<https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-registration.html>`_.
+Please follow the :ref:`Model registration user guide <model-registration>`.
 
 Scenario version management
 ---------------------------
