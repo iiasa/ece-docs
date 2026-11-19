@@ -43,7 +43,7 @@ integrated in project workflows when submitting data to a Scenario Explorer inst
 To learn more about region aggregation using :class:`nomenclature`, please see the user
 guide on :ref:`model-mappings` and the API documentation for the `RegionProcessor`_.
 
-.. _`RegionProcessor`: <https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html>_`
+.. _RegionProcessor: https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html
 
 .. _region-codelist:
 

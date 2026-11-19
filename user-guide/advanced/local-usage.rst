@@ -91,7 +91,7 @@ A more elaborate use case is to perform validation against the codelists and use
 
 Refer to the section :ref:`model-mapping` for more information about this feature.
 
-.. _`RegionProcessor`: https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html
+.. _RegionProcessor: https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html
 
 .. _local-workflow:
 

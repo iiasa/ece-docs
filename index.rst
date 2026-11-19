@@ -4,10 +4,10 @@ Scenario Services & Scientific Software
 This page is released under a `Creative Commons CC0 1.0 License
 <https://github.com/iiasa/ece-docs/blob/main/LICENSE>`_ |cc| |zero|.
 
-.. |cc| image:: https://mirrors.creativecommons.org/presskit/icons/cc.svg
+.. |cc| image:: https://mirrors.creativecommons.org/presskit/icons/cc.png
    :width: 22
 
-.. |zero| image:: https://mirrors.creativecommons.org/presskit/icons/zero.svg
+.. |zero| image:: https://mirrors.creativecommons.org/presskit/icons/zero.png
    :width: 22
 
 The IAMC data format
