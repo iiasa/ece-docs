@@ -4,20 +4,22 @@ Requirements for processing modules
 ===================================
 
 Any module (a.k.a. program, code or tool) must adhere to the following standards
-of best-practice software development.
+of best-practice software development before it can be considered for integration in
+the IIASA scenario-processing infrastructure.
+
 The aim of these guidelines is to ensure reliability of our services, minimize
 maintenance requirements, and guarantee reproducibility of results across platforms.
 
 General requirements
 --------------------
 
-- The program, code or tool must be implemented in Python (≥3.11) or R (≥4.1);
+- The program, code or tool must be implemented in Python (≥3.11);
   compiled executables are not acceptable for security reasons
-- Distribution of the source code
+- Distribution of the source code via
 
-  - via an online version-controlled repository
-    (preferably GitHub) to which the IIASA admin team has access; or
-  - installation via a package manager (pip, conda, CRAN)
+  - a package manager (preferably pypi); or
+  - an online version-controlled repository (preferably GitHub) to which the IIASA
+    Scenario Services team has access
 
 - The program must run on Debian (preferably Ubuntu)
 - The dependencies must be clearly stated,
@@ -28,7 +30,7 @@ General requirements
 - The license must be clearly stated
 - The documentation of the program, code or tool must include:
 
-  - Purpose of the program and individual top-level functions
+  - Purpose of the program and individual top-level API functions
   - Instructions how to run the program
   - Expected input (variables, region mappings) and standard output
   - Explanation of any settings and optional parameters
@@ -51,10 +53,9 @@ e.g. :code:`"python process.py --input path-to-input-file.xlsx --output path-to-
 
 Option 2
 ^^^^^^^^
-*Applicable for packages/functions written in Python*
 
-Importable Python functions that take and return :class:`pandas.DataFrame` (with columns
-folllowing the IAMC format) or :class:`pyam.IamDataFrame` objects can be called as part
-of the processing workflow. Any settings or optional parameters must be given as keyword
-arguments to the top-level function, preferably with the option to set them via a
-settings or configuration file.
+Importable Python classes or functions that take and return :class:`pandas.DataFrame`
+(with columns folllowing the IAMC format) or :class:`pyam.IamDataFrame` objects can be
+called as part of the processing workflow. Any settings or optional parameters must be
+given as keyword arguments to the top-level function, preferably with the option to set
+them via a settings or configuration file.
