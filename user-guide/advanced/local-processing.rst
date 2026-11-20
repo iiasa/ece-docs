@@ -1,7 +1,7 @@
-.. _local-usage:
+.. _local-processing:
 
-Local usage of a project
-========================
+Local processing of a project workflow
+======================================
 
 .. attention:: This page is intended for users who are familiar with Python,
    `git <https://git-scm.com>`_  and a service like `GitHub <https://github.com>`_.
