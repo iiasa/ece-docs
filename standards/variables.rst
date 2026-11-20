@@ -3,6 +3,9 @@
 Variables in the IAMC format
 ============================
 
+Structure
+---------
+
 The 'variable' column of the IAMC format describes the type of information represented
 in the specific timeseries. The variable name implements a "semi-hierarchical" structure
 using the ``|`` character (*pipe*, not l or i) to indicate the structure or "depth".
@@ -31,7 +34,7 @@ A variable name should adhere to the following conventions:
 - Do not use abbreviations unless strictly necessary or common in general discourse.
   For example, *CCS* is ok, but *PHEV* should be avoided.
 - Do not use abbreviations of statistical operations (*min*, *max*, *avg*) but
-  always spell out the term.
+  instead spell out the term.
 - All words must be capitalised (except for *and*, *w/*, *w/o*, etc.).
 - If necessary to add a method or operation-identifier (e.g., Share, per capita)
   to a variable name, add it in square brackets, e.g.,
@@ -46,4 +49,5 @@ Units
 The **unit** associated with a variable should be compatible with the `iam-units
 <https://github.com/iamconsortium/units>`_ package.
 Alternatively, a variable can be *dimensionless*, i.e., not have a unit.
-An example of such a dimensionless variable are indices, e.g., the *Human Development Index*.
+An example of such a dimensionless variable are indices, e.g., the
+*Human Development Index* or variables that describe shares.
