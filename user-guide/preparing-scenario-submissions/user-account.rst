@@ -1,10 +1,10 @@
-.. _manager:
-
 .. tip::
 
   This is the first step of the **Preparing Scenario Submissions** user guide.
 
   To learn how to prepare data for scenario submission, go to :ref:`model-registration`.
+
+.. _user-account:
 
 Access and permission management
 ================================
@@ -14,8 +14,8 @@ Access to project-internal platforms is managed via the `Scenario Services Manag
 
 .. _user-registration:
 
-Registering in a Scenario App
------------------------------
+User registration
+-----------------
 
 To register a new user account, go to https://manager.ece.iiasa.ac.at/register.
 Once you click **Register**, a message will be sent to the registered e-mail address

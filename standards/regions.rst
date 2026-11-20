@@ -19,7 +19,7 @@ following the common list of countries (see :ref:`countries`).
 
 .. info::
 
-    Refer to the `naming-conventions`_ for more information!
+    Refer to the :ref:`naming-conventions` for more information!
 
 Common regions
 --------------

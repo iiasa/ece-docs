@@ -1,10 +1,10 @@
-.. _data-format:
-
 .. tip::
 
   This is the last step of the **Preparing Scenario Submissions** user guide.
 
   To learn how to submit scenarios in the Scenario App, go to :ref:`scenario-submission`.
+
+.. _data-format:
 
 Formatting data in IAMC format
 ==============================

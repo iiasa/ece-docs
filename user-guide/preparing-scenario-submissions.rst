@@ -9,7 +9,7 @@ to preparing IAMC scenario data for upload:
 .. toctree::
    :maxdepth: 1
 
-   preparing-scenario-submissions/iiasa-manager
+   preparing-scenario-submissions/user-account
    preparing-scenario-submissions/model-registration
    preparing-scenario-submissions/data-format
 
