@@ -47,13 +47,13 @@ account and send the username to an administrator from the IIASA Scenario Servic
 team and the appropriate project manager(s).
 If you require upload permission, see the next step.
 
-.. _upload-permissions:
+.. submission-permissions:
 
-Upload permissions for a Scenario App
--------------------------------------
+Submission permissions for a Scenario App
+------------------------------------------
 
-In order to submit scenarios to the Scenario Explorer, the user must be registered
-in the appropriate modeler group(s).
+In order to submit scenarios (i.e., upload a file) to a Scenario Explorer app, the user
+must be added to the appropriate modeler group(s).
 
 To have submit permission, please contact an administrator from the IIASA
 Scenario Services team, or the appropriate contact person in the project,

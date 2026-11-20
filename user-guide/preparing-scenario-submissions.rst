@@ -15,10 +15,10 @@ to preparing IAMC scenario data for upload:
 
 In these pages, you will learn how to:
 
-- register a Scenario Services account
-- setup access and upload permissions for a Scenario App
-- register a model for a project
-- format and preprocess data for upload in a Scenario App
+- register an account in the Scenario Services Manager
+- setup access and submit (upload) permissions for a Scenario Explorer app
+- register a model for a project in order to submit of scenarios
+- format and preprocess data for submission (upload) in a Scenario Explorer app
 
 At the end of this tutorial, you will have gathered all the requirements to submit
 scenarios for a project's Scenario App.
