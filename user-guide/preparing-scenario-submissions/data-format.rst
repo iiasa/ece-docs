@@ -1,6 +1,6 @@
 .. tip::
 
-  This is the last step of the **Preparing Scenario Submissions** user guide.
+  This is the third step of the **Preparing Scenario Submissions** user guide.
 
   To learn how to submit scenarios in the Scenario App, go to :ref:`scenario-submission`.
 
