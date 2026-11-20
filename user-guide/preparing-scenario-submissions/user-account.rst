@@ -26,13 +26,15 @@ to validate the account.
 Accessing a Scenario App
 ------------------------
 
-In order to have access to a project-internal app, users must be registered
-in the respective accessor group. Gated apps are accessible to any user logged into
-their Scenario Services account. Public apps are accessible to any person by default.
+In order to have access to a **pProject-internal app**, users must be registered
+in the respective accessor group. **Gated apps** are accessible to any user if they are
+logged in using their account. **Public apps** are accessible to all users and do not
+require to log in.
 
-Access permission for project-specific Scenario Apps is configured in the Manager.
-You can see all public and private database instances to which you have access,
-including your view permissions, in the *Services* tab of the manager.
+Access permission for project-specific Scenario Apps is configured in the
+`Scenario Services Manager`_. You can see all public and internal Scenario apps to which
+you have access in the *Services* tab of the manager. This page also shows your
+permissions to view/submit/edit scenarios for specific models.
 
 .. figure:: ../../_static/ece-manager-screenshot.png
    :width: 600px
@@ -44,7 +46,7 @@ including your view permissions, in the *Services* tab of the manager.
 
 To participate in a project and gain access to an instance, please register an
 account and send the username to an administrator from the IIASA Scenario Services
-team and the appropriate project manager(s).
+team and/or the relevant project manager(s).
 If you require upload permission, see the next step.
 
 .. submission-permissions:
@@ -56,23 +58,17 @@ In order to submit scenarios (i.e., upload a file) to a Scenario Explorer app, t
 must be added to the appropriate modeler group(s).
 
 To have submit permission, please contact an administrator from the IIASA
-Scenario Services team, or the appropriate contact person in the project,
-specifying the model name(s) and version(s) to be uploaded (e.g.:
-**Model-Name v1.0**).
-
-You can see all public and private database instances to which you can upload data
-in the *Services* tab of the manager.
-You can also confirm the model(s) you can upload in the Scenario App, in the
-**Scenario Submission** page, see :ref:`scenario-submission`.
+Scenario Services team or the appropriate contact person in the project,
+specifying the model name(s) and version(s) to be uploaded (e.g.: **Model-Name v1.0**).
 
 .. _group-manager:
 
 Managing user permissions
 -------------------------
 
-Users can also be **Group Managers**, allowing them to manage user membership
-in a group.
-After logging in to the Manager, group managers can see a **User Management** tab.
+Project coordinators or modelling team leads can be assigned as **Group Managers**,
+allowing them to add users to a group or remove them, thereby giving/revoling access to
+project-internal apps or assigning view/submit/edit permissions for a model.
 
 .. figure:: ../../_static/ece-manager-group-manager.png
    :width: 600px
@@ -81,11 +77,11 @@ After logging in to the Manager, group managers can see a **User Management** ta
    A group manager can see and access the User Management tab in the Manager
    navigation menu.
 
-In the **User Management** tab:
+In the `Scenario Services Manager`_, group managers will see a **User Management** tab.
 
 - Go to **Managed Groups > List** to see all the groups you manage.
 
-- Go to **Managed Groups > Edit** to see all users in a group, add, and remove users.
+- Go to **Managed Groups > Edit** to see all users in a group and add/remove users.
 
 Both menus support text search.
 
