@@ -78,7 +78,7 @@ Visit https://github.com/IAMconsortium/common-definitions for more information.
 
 .. tip::
 
-    Read the User Guide on :ref:`data-format` for more information on how to prepare
+    Read the User Guide on :ref:`preparing-data` for more information on how to prepare
     your scenario data for submission to an IIASA Scenario App.
 
 Related software packages

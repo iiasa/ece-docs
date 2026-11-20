@@ -4,7 +4,7 @@
 
   To learn how to submit scenarios in the Scenario App, go to :ref:`scenario-submission`.
 
-.. _data-format:
+.. _preparing-data:
 
 Formatting data in IAMC format
 ==============================
