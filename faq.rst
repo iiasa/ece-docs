@@ -3,6 +3,9 @@
 Frequently Asked Questions
 ==========================
 
+General questions
+-----------------
+
 .. rubric:: Why are there different *Scenario Explorers* for specific projects?
 
 Each project brings together different consortium partners, focuses on a different
@@ -70,16 +73,15 @@ by app managers and administrators.
 On the top bar of the "Data Explorer", select the dotted line document icon
 **"Show variables, regions and scenarios where no data exists given the applied filters"**.
 
-IAMC Data
----------
+Data download
+-------------
 
-.. rubric:: How can I download IAMC data from a Scenario App?
+.. rubric:: How can I download scenario data from a Scenario App?
 
 There are two main options:
 
-- see :ref:`downloading` on how to download scenario data from a Data Explorer.
-- you can download data as an IamDataFrame using **pyam**
-  (`read the docs <https://pyam-iamc.readthedocs.io>`_).
+- Read the User Guide on :ref:`downloading` from a Scenario app.
+- You can download data as an IamDataFrame using the :class:`pyam`
   Simply run the following line, adding filters for model and scenario name as needed:
 
   .. code:: python
@@ -90,3 +92,10 @@ There are two main options:
       scenario="..",
       variable="..",
     )
+
+  Read the User Guide on :ref:`query-iiasa-databases` for more information.
+
+.. note::
+
+    Reach out to the |ScSe team| if you have further questions or
+    suggestions for additional FAQs in this section!
