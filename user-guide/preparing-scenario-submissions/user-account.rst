@@ -44,7 +44,7 @@ permissions to view/submit/edit scenarios for specific models.
 
 .. _`Scenario Services Manager`: https://manager.ece.iiasa.ac.at
 
-To participate in a project and gain access to an instance, please register an
+To participate in a project and gain access to an instance, please create an
 account and send the username to an administrator from the IIASA Scenario Services
 team and/or the relevant project manager(s).
 If you require upload permission, see the next step.
