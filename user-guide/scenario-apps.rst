@@ -9,7 +9,6 @@ The following steps guide users on the features available in the
 .. toctree::
    :maxdepth: 1
 
-   scenario-apps/scenario-submission
    scenario-apps/data-explorer
    scenario-apps/map-explorer
    scenario-apps/resources
