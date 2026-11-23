@@ -81,7 +81,7 @@ Data download
 There are two main options:
 
 - Read the User Guide on :ref:`downloading` from a Scenario app.
-- You can download data as an IamDataFrame using the :class:`pyam`
+- You can download data as an IamDataFrame using the |pyam|. 
   Simply run the following line, adding filters for model and scenario name as needed:
 
   .. code:: python

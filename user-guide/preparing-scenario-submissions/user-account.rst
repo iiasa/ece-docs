@@ -26,7 +26,7 @@ to validate the account.
 Accessing a Scenario App
 ------------------------
 
-In order to have access to a **pProject-internal app**, users must be registered
+In order to have access to a **Project-internal app**, users must be registered
 in the respective accessor group. **Gated apps** are accessible to any user if they are
 logged in using their account. **Public apps** are accessible to all users and do not
 require to log in.
@@ -67,7 +67,7 @@ Managing user permissions
 -------------------------
 
 Project coordinators or modelling team leads can be assigned as **Group Managers**,
-allowing them to add users to a group or remove them, thereby giving/revoling access to
+allowing them to add users to a group or remove them, thereby giving/revoking access to
 project-internal apps or assigning view/submit/edit permissions for a model.
 
 .. figure:: ../../_static/ece-manager-group-manager.png

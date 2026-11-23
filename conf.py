@@ -93,4 +93,9 @@ rst_prolog = """
    <code class="xref py py-class docutils literal notranslate"><span class="pre">nomenclature</span></code> 
    package (<a href="https://nomenclature-iamc.readthedocs.io">read the docs</a>)
 
+.. |pyam| raw:: html
+    
+   <code class="xref py py-class docutils literal notranslate"><span class="pre">pyam</span></code> 
+   package (<a href="https://pyam-iamc.readthedocs.io">read the docs</a>)
+
 """
