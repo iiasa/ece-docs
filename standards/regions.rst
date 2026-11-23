@@ -10,16 +10,12 @@ The **native region** resolution is the list of regions that are explicitly repr
 in a model.
 
 Models with a coarse spatial resolution should add a model-specific identifier to the
-native model regions (e.g., `MESSAGEix-GLOBIOM 1.1|North America`) to avoid confusion
+native model regions (e.g., ``MESSAGEix-GLOBIOM 1.1|North America``) to avoid confusion
 when comparing results to other models with similar-but-different regions.
 
 If a model has a country-level resolution (where disambiguation is not a concern),
 we recommend to *not add* a model identifier. Instead, use the naming convention
 following the common list of countries (see :ref:`countries`).
-
-.. info::
-
-    Refer to the :ref:`naming-conventions` for more information!
 
 Common regions
 --------------
@@ -64,11 +60,10 @@ list structure is required:
    - Hierarchy 2:
      - ...
 
-
 Regions can have attributes, for example a description or a list of countries comprised
 in that region. If the attributes `countries` is provided, the item(s) are
 validated against a list of valid ISO3 country names adapted from the
-:py:mod:`nomenclature.countries` module.
+:class:`nomenclature.countries` module.
 More details on the list of countries can be found :ref:`here <countries>`.
 
 .. _naming-conventions:
@@ -97,7 +92,7 @@ Connections between regions
 ---------------------------
 
 For reporting of connections (e.g., trade flows), "directional regions" can be
-defined using a *>* separator. The region before the separator is the *origin*,
+defined using a ``>`` separator. The region before the separator is the *origin*,
 the region after the separator is the *destination*.
 
 .. code:: yaml
