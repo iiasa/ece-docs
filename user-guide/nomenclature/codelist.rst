@@ -1,10 +1,10 @@
 .. _codelist:
 
-The CodeList class
-==================
+Working with codelists
+======================
 
-A ``CodeList`` is a list of allowed values (i.e. codes) and attributes (optional).
-In the **nomenclature** package, the codelists are parsed from yaml files.
+A "codelist" is a list of allowed values (i.e. codes) and attributes (optional).
+In the :class:`nomenclature` package, the codelists are parsed from yaml files.
 They contain lists of allowed values for some or all dimensions of the IAMC format
 (i.e., model, scenario, region, variable).
 
