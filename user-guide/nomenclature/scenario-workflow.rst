@@ -26,10 +26,10 @@ Below, you can see a simple example and the breakdown of its four main steps:
         return process(df, definition, processor=processor)
 
 
-1. Importing the Python dependencies, **pyam** and **nomenclature**
+1. Importing the Python dependencies, :class:`pyam` and :class:`nomenclature`
 
-  - `pyam` is responsible for manipulating IAMC format DataFrames
-  - `nomenclature` provides scenario validation and region aggregation functionalities
+  - :class:`pyam` is responsible for manipulating IAMC format DataFrames
+  - :class:`nomenclature` provides scenario validation and region aggregation functionalities
     
     - For more information on scenario validation, see: 
 

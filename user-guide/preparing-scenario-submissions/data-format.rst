@@ -43,7 +43,7 @@ Local validation
 ----------------
 
 If you are familiar with Python and git, you have the option to run the project workflow
-on your computer using the :class:`nomenclature` package. This can be useful to check
+on your computer using the |nomenclature|. This can be useful to check
 that your file conforms to the data format and project specifications before uploading
 the file to the Scenario App.
 

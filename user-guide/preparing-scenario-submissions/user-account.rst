@@ -49,7 +49,7 @@ account and send the username to an administrator from the IIASA Scenario Servic
 team and/or the relevant project manager(s).
 If you require upload permission, see the next step.
 
-.. submission-permissions:
+.. _submission-permissions:
 
 Submission permissions for a Scenario App
 ------------------------------------------

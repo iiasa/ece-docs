@@ -152,6 +152,6 @@ import the ``main()`` function.
 
 .. important::
 
-  Make sure to pull the latest project repository and update the **nomenclature**
+  Make sure to pull the latest project repository and update the :class:`nomenclature`
   package when you repeat this step later to make sure that the IIASA infrastructure
   and your local check are in sync.

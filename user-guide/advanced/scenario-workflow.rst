@@ -24,10 +24,10 @@ Scenario workflow processing
 
 This simple workflow script consists of four main steps:
 
-1. Importing the Python dependencies, **pyam** and **nomenclature**
+1. Importing the Python dependencies, :class:`pyam` and :class:`nomenclature`
 
-  - `pyam` is responsible for manipulating IAM DataFrames
-  - `nomenclature` provides scenario validation and region aggregation functionalities
+  - :class:`pyam` is responsible for manipulating IAM DataFrames
+  - :class:`nomenclature` provides scenario validation and region aggregation functionalities
     
     - For more information on scenario validation, see:
 

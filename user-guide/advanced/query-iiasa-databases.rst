@@ -5,7 +5,7 @@ Querying IIASA databases
 
 You can query scenario data from an IIASA database instance directly via Python,
 R or a Rest API.
-The **pyam** package allows to directly query both the new *Scenario Apps* and
+The |pyam| allows to directly query both the new *Scenario Apps* and
 the (legacy) *Scenario Explorer* databases (2018-2024).
 
 .. code:: python
@@ -18,9 +18,9 @@ filter by model, scenario or variable.
 
 .. tip::
 
-    Learn more about the Python package **pyam** on `Read The Docs`_.
+    Learn more about the Python package :class:`pyam` on `Read The Docs`_.
 
-    There is a `tutorial`_ to use **pyam** with **R** via the **reticulate** package.
+    There is a `tutorial`_ to use :class:`pyam` with **R** via the :class:`reticulate` package.
 
 .. _`Read The Docs`: https://pyam-iamc.readthedocs.io
 
@@ -53,11 +53,11 @@ The approach for more complex queries depends on the database backend:
 -----------------------------------
 
 New *Scenario Explorer* instances (set up since 2025) use the *ScSe Apps infrastructure*
-and the **ixmp4** package as a database backend.
-You can list all **ixmp4** platforms hosted by IIASA (and to which you have access)
+and the :class:`ixmp4` package as a database backend.
+You can list all :class:`ixmp4` platforms hosted by IIASA (and to which you have access)
 using :func:`pyam.iiasa.platforms()`.
 
-You can use :func:`pyam.read_iiasa()` for simple queries or the **ixmp4** package
+You can use :func:`pyam.read_iiasa()` for simple queries or the :class:`ixmp4` package
 for connecting to a platform and executing other requests.
 
 .. code:: python
@@ -80,7 +80,7 @@ To learn more about scenario runs, see `future link here`_.
 Legacy *Scenario Explorer* instances
 ------------------------------------
 
-You can use the **pyam** package to connect to a legacy *Scenario Explorer* instance
+You can use the :class:`pyam` package to connect to a legacy *Scenario Explorer* instance
 developed by the Scenario Services and Scientific Software team from 2018 until 2024.
 
 You can use :func:`pyam.read_iiasa()` for simple queries or the

@@ -4,7 +4,7 @@ Working with codelists
 ======================
 
 A "codelist" is a list of allowed values (i.e. codes) and attributes (optional).
-In the :class:`nomenclature` package, the codelists are parsed from yaml files.
+In the |nomenclature|, the codelists are parsed from yaml files.
 They contain lists of allowed values for some or all dimensions of the IAMC format
 (i.e., model, scenario, region, variable).
 
@@ -18,7 +18,7 @@ and :ref:`region <region-codelist>` have a special structure and format.
 
 .. note::
 
-  To read about more in-depth implementation of codelists, see the **nomenclature**
+  To read about more in-depth implementation of codelists, see the :class:`nomenclature`
   documentation `here <https://nomenclature-iamc.readthedocs.io/en/stable/api/codelist.html>`_.
 
 The generic codelist format
