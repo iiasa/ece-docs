@@ -3,6 +3,11 @@
 Native and common regions
 =========================
 
+.. note::
+
+   For examples for defining regions in :class:`nomenclature`, see the
+   :ref:`region codelist guide <region-codelist>`.
+
 Native model regions
 --------------------
 
@@ -30,63 +35,13 @@ A widely used example are the `R5, R9 and R10 regions`_.
 Computing regional aggregates
 `````````````````````````````
 
-The |nomenclature| includes a user guide on how to setup instructions for region
-aggregation. This enables reporting data at a model's native regional resolution, and
-then aggregating the data to the relevant common regions.
-This instruction-based aggregation can be run locally on IAMC data files, and is also
-integrated in project workflows when submitting data to a Scenario Explorer instance.
+The |nomenclature| can aggregate results reported at a model's native regional
+resolution into common regions. This can be run locally on IAMC data files and is
+also integrated into project workflows for submissions to a Scenario Explorer.
 
-To learn more about region aggregation using :class:`nomenclature`, please see the user
-guide on :ref:`model-mappings` and the API documentation for the `RegionProcessor`_.
-
-.. _RegionProcessor: https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html
-
-.. _region-codelist:
-
-Region format specification
----------------------------
-
-Each region **must** be part of a hierarchy, which means that the following nested
-list structure is required:
-
-.. code:: yaml
-
-   - Hierarchy 1:
-     - Region 1:
-         description: Some short explanation
-         countries: [Country 1, Country 2, ...]
-     - Region 2:
-         description: Some short explanation
-   - Hierarchy 2:
-     - ...
-
-Regions can have attributes, for example a description or a list of countries comprised
-in that region. If the attributes `countries` is provided, the item(s) are
-validated against a list of valid ISO3 country names adapted from the
-:class:`nomenclature.countries` module.
-More details on the list of countries can be found :ref:`here <countries>`.
-
-.. _naming-conventions:
-
-Naming conventions for native model regions
--------------------------------------------
-
-Models with a coarse spatial resolution should add a model-specific *prefix* to
-the native model regions (e.g., `MESSAGEix-GLOBIOM 1.1|North America`) to avoid
-confusion when comparing results to other models with similar-but-different regions.
-
-.. code:: yaml
-
-   - Model A v1.0:
-     - Model A v1.0|Region 1:
-         description: Some short explanation
-
-The renaming from (short) region names as reported by a modelling framework to
-more verbose region names for use in model-comparison projects can be implemented
-by the :ref:`model-mappings`.
-
-If a model has a country-level resolution where disambiguation is not a concern,
-we recommend to *not add* a model identifier.
+For instructions, see the guide to :ref:`model-mappings` and the `RegionProcessor
+<https://nomenclature-iamc.readthedocs.io/en/stable/api/regionprocessor.html>`_
+API documentation.
 
 Connections between regions
 ---------------------------
@@ -95,23 +50,4 @@ For reporting of connections (e.g., trade flows), "directional regions" can be
 defined using a ``>`` separator. The region before the separator is the *origin*,
 the region after the separator is the *destination*.
 
-.. code:: yaml
-
-   - Trade Connections:
-     - China>Europe
-
-.. code:: yaml
-
-   - Model A v1.0 [Connection]:
-     - Model A v1.0|Region 1>Region 2
-
-For model-specific directional connections, the *prefix* must be added as well.
-Both origin and destination `Model A v1.0|Region 1` and `Model A v1.0|Region 2` must be
-defined in the region codelist.
-
-.. warning::
-
-    Region prefixes other than model names are *not* recommended! Instead, sub-divisions
-    of regions (e.g., states within a country) should be defined as distinct
-    region-hierarchies. This is because using country-names as region-prefixes can cause
-    confusion when defining connections between regions.
+For example, ``China>Europe`` describes a connection from China to Europe.

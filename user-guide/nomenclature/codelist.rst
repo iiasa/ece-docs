@@ -13,7 +13,7 @@ determined by the **name of the folder**. For example, if a codelist is located 
 folder called *variable* it will be used for validation of the "variable" dimension
 of a scenario data file.
 
-See the format for a generic codelist below; the dimensions :ref:`variable <variables>`
+See the format for a generic codelist below; the dimensions :ref:`variable <variable-codelist>`
 and :ref:`region <region-codelist>` have a special structure and format.
 
 .. note::

@@ -51,6 +51,8 @@ To learn more about each step in-depth, please see the guides below:
    nomenclature/directory-structure
    nomenclature/config
    nomenclature/codelist
+   nomenclature/variable-codelist
+   nomenclature/region-codelist
    nomenclature/model-mappings
    nomenclature/scenario-workflow
 
