@@ -6,7 +6,7 @@ A common list of country names
 Having a standardized list of country names is an important prerequisite for region
 definitions, scenario analysis and model comparison.
 
-The |nomenclature| builds on the :py:mod:`pycountry` package
+The |nomenclature| builds on the :class:`pycountry` package
 (`more info <https://github.com/flyingcircusio/pycountry>`_) to provide a standardized
 list of country names based on the `ISO 3166-1 standard`_.
 
