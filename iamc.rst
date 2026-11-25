@@ -35,7 +35,7 @@ following the IAMC format from the Horizon 2020 `CD-LINKS`_ project.
 
 The scenario data is usually saved as *xlsx* or *csv* files in wide format
 (years as columns), but other types are also possible (e.g., via
-the `pyam package <https://pyam-iamc.readthedocs.io/en/stable/api/io.html>`_).
+the |pyam|.
 
 .. figure:: _static/iamc-example.png
 
@@ -46,10 +46,21 @@ the `pyam package <https://pyam-iamc.readthedocs.io/en/stable/api/io.html>`_).
 
 .. _`IAMC 1.5°C Scenario Explorer`: https://data.ece.iiasa.ac.at/iamc-1.5c-explorer
 
-Naming conventions and standards
---------------------------------
+Data dimensions
+---------------
 
-Read more about guidelines and naming conventions for :ref:`variables` and :ref:`regions`.
+The IAMC format consists of at least the following dimensions:
+
+- Model
+- Scenario
+- Region
+- Variable
+- Unit
+
+.. tip::
+
+    Read more about guidelines for :ref:`variables` and naming conventions for
+    :ref:`regions`.
 
 .. _project-templates:
 
@@ -64,6 +75,11 @@ The aim is to provide a central location to facilitate reuse of definitions and
 mappings across projects.
 
 Visit https://github.com/IAMconsortium/common-definitions for more information.
+
+.. tip::
+
+    Read the User Guide on :ref:`preparing-data` for more information on how to prepare
+    your scenario data for submission to an IIASA Scenario App.
 
 Related software packages
 -------------------------

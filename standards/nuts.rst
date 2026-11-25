@@ -3,7 +3,7 @@
 NUTS classification
 ===================
 
-The |nomenclature| uses the :py:mod:`pysquirrel` package
+The |nomenclature| uses the :class:`pysquirrel` package
 (:ref:`more information here <pysquirrel>`) to provide a utility suite for region names
 based on the `NUTS classification`_. These are territorial units for Europe including
 multiple levels of resolution depending on the required level of detail.

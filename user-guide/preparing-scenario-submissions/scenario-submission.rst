@@ -1,6 +1,13 @@
+.. tip::
+
+  This is the fourth step of the **Preparing Scenario Submissions** user guide.
+
+  To learn how to visualize the submitted data in a Scenario App, go to
+  :ref:`data-explorer`.
+
 .. _scenario-submission:
 
-Scenario Submission
+Scenario submission
 ===================
 
 Submitting scenario data

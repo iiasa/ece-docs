@@ -1,7 +1,7 @@
-.. _local-usage:
+.. _local-processing:
 
-Local usage of a project
-========================
+Local processing of a project workflow
+======================================
 
 .. attention:: This page is intended for users who are familiar with Python,
    `git <https://git-scm.com>`_  and a service like `GitHub <https://github.com>`_.
@@ -152,6 +152,6 @@ import the ``main()`` function.
 
 .. important::
 
-  Make sure to pull the latest project repository and update the **nomenclature**
+  Make sure to pull the latest project repository and update the :class:`nomenclature`
   package when you repeat this step later to make sure that the IIASA infrastructure
   and your local check are in sync.

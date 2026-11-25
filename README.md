@@ -23,3 +23,49 @@ Run Sphinx to build the docs!
     make html
 
 The rendered html pages will be located in `_build/index.html`.
+
+## Style guide
+
+The documentation pages use reStructuredText:
+
+- Use literal markup for IAMC names, YAML keys and values, file paths, and codes,
+  e.g., ``` ``Primary Energy`` ```, ``` ``description`` ```, and
+  ``` ``definitions/variable`` ```.
+- Use Sphinx roles for documented Python objects and `:ref:` for links to other
+  sections; use descriptive labels for cross-references. For example,
+  `` :meth:`pyam.IamDataFrame.aggregate_region` ``, `` :ref:`model-mappings` ``
+  and ``` :class:`nomenclature` ```.
+- Use `.. code:: yaml` or another language-specific directive for code examples:
+
+  ```rst
+  .. code:: yaml
+
+    unit: EJ/yr
+  ```
+
+- Use `.. note::` and `.. tip::` for additional guidance, and `.. warning::`
+  for important caveats:
+
+  ```rst
+  .. note::
+
+    A variable can have more than one allowed unit.
+
+  .. warning::
+
+    Check that the units in the data match the codelist.
+  ```
+
+- Use `=` underlines for page titles, `-` for sections, and backticks for subsections.
+  Leave blank lines around directives, lists, and headings:
+
+  ~~~rst
+  Page title
+  ==========
+
+  Section
+  -------
+
+  Subsection
+  ``````````
+  ~~~

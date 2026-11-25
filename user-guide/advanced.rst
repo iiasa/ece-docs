@@ -11,5 +11,5 @@ processing modules to incorporate into the upload pipeline, see below:
    :maxdepth: 1
 
    advanced/query-iiasa-databases
-   advanced/local-usage
+   advanced/local-processing
    advanced/processing-requirements

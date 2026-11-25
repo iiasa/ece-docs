@@ -4,7 +4,8 @@ Scenario databases hosted by IIASA
 ==================================
 
 The *Energy, Climate and Environment* program (ECE) at IIASA is hosting many databases
-for the community to facilitate scenario analysis, model comparison and dissemination.
+for the community to facilitate scenario analysis, model comparison and dissemination
+of project results.
 
 Types of *Scenario Explorer*
 ----------------------------
@@ -13,7 +14,7 @@ Types of *Scenario Explorer*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 New *Scenario Explorer* instances use the *ScSe Apps infrastructure* and the **ixmp4**
-package as a database backend, which were developed in 2024.
+package as a database backend.
 
 Legacy *Scenario Explorer* instances (2018-2024)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -33,10 +34,7 @@ Access and permission management
 
 There are public and project-internal (private) database instances or **platforms**.
 Access to project-internal platforms is managed via the `Scenario Services Manager`_.
-To participate in a project, please create an account and send the username
-to the project managers by email.
-
-You can see all public and private database instances to which you have access,
+There, you can see all public and private database instances to which you have access,
 including your view/submit/edit permissions, in the *Services* tab of the manager.
 
 .. figure:: _static/ece-manager-screenshot.png
@@ -44,81 +42,34 @@ including your view/submit/edit permissions, in the *Services* tab of the manage
 
    Screenshot of the "Overview" page of the `Scenario Services Manager`_
 
+.. tip::
+
+    Read the User Guide on :ref:`user-account` for more information.
+
 .. _`Scenario Services Manager`: https://manager.ece.iiasa.ac.at
 
 Model registration
 ------------------
 
 To participate in a model comparison project using the IIASA scenario database infrastructure,
-you have to "register" your model. A model registration requires three specifications:
-
-* A model name including a *version number*, preferably using
-  `semantic versioning <https://semver.org>`_
-* A list or mapping of region names as they will be submitted (uploaded) to an IIASA
-  database instance by the modeling team, and how the region names should appear
-  in the processed scenario data
-* A model mapping to perform region aggregation from *native_regions* to
-  *common_regions* and renaming of model native regions (optional)
-
-.. note::
-
-    **When to change the model version number**
-
-    The version number should (only) be changed if:
-    
-    a) the regional resolution of the model changes (e.g., adding more countries/regions), or
-    b) new sectors or modules are added to the model
-
-    Minor updates or changes do not require a new version number.
-
-Option 1) Registration using an Excel template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you do not feel comfortable using GitHub, please use the `Excel template`_ and send
-it to the project managers by email.
-
-.. _`Excel template`: https://raw.githubusercontent.com/IAMconsortium/nomenclature/main/templates/model-registration-template.xlsx
+you have to "register" your model.
 
 .. tip::
 
-    **Do you need to submit a model registration spreadsheet?**
-
-    If your model uses "standard" regions like countries (see :ref:`countries`),
-    NUTS regions (see :ref:`nuts`), or US states, you typically do **not** need to
-    submit a model registration spreadsheet.
-
-    A model registration is primarily needed for models with custom regional definitions
-    or aggregations that require explicit mapping.
-
-Option 2) Registration using a GitHub pull request
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The preferred approach for model registration is starting a GitHub pull request.
-Please contact the administrators if permissions for the project repository
-are required.
-
-Please follow the :ref:`Model registration user guide <model-registration>`.
+    Read the User Guide on :ref:`model-registration` for more information.
 
 Scenario version management
 ---------------------------
 
-When submitting a scenario (a.k.a. "run") to an IIASA database instance with an
-already existing model-scenario combination, the database will save the new submission
-as a new version of that run.
+When a modeling team submits a scenario (a.k.a. "run") to an IIASA database instance
+where a run with that model-scenario combination already exists in the database, the new
+submission will be saved as a new version of that run.
 The **version number** is incremented automatically and the new version will be
 automatically set as **default version** for that model-scenario name.
 
 To select other (non-default) versions, you can use the "Switch to Advanced View" button
 in the scenario-selection tab of an IIASA Scenario Explorer or you can use the
 :code:`default_only=False` option of the function :func:`pyam.read_iiasa()`.
-
-.. note::
-
-   For more ways of querying data from legacy Scenario Explorers, please refer to
-   **pyam**'s tutorial `here`_.
-
-
-.. _`here`: https://pyam-iamc.readthedocs.io/en/stable/tutorials/iiasa.html#Reading-data-from-a-database-hosted-by-IIASA
 
 .. _scenario-processing:
 
@@ -132,16 +83,20 @@ validation* prior to saving the scenario to the database. The processing uses th
 
 The region-aggregation and validation is configured via a project-specific GitHub_
 repository, usually named `https://github.com/iiasa/<project>-workflow`_. Please contact
-the respective project managers or the Scenario Services team if you need access.
+the respective project managers or the Scenario Services team if you need to have
+access.
 
 You can also run the project workflow locally (on your computer) before submission to
 an IIASA database instance, to make sure that the validation and processing works.
-See :ref:`local-processing` for more information.
- 
+
 The workflow for processing files uploaded via the IIASA Scenario Explorer is
 implemented in a modular fashion. It is possible to execute programs, code and tools
 developed by (non-IIASA) research partners as part of the processing workflow
 if the tool follows the :ref:`processing-requirements`.
+
+.. tip::
+
+    Read the User Guide on :ref:`local-processing` for more information.
 
 .. _GitHub: https://www.github.com
 
@@ -153,4 +108,7 @@ Database API
 ------------
 
 You can query scenario data from an IIASA database instance directly via Python or R.
-Refer to the User Guide for :ref:`query-iiasa-databases` for more information.
+
+.. tip::
+
+    Read the User Guide for :ref:`query-iiasa-databases` for more information.

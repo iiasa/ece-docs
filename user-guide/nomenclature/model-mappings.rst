@@ -3,7 +3,7 @@
 Region processing using model mappings
 ======================================
 
-The **nomenclature** package supports automated region aggregation as part of a
+The |nomenclature| package supports automated region aggregation as part of a
 scenario processing workflow. The instructions for region aggregation are provided
 as a *model mapping*.
 

@@ -1,20 +1,20 @@
 .. _nomenclature-guide:
 
-*nomenclature* scenario management
+Scenario processing and validation
 ==================================
 
-**nomenclature** is an in-house developed Python package that is used as part of
-the data upload process for integrated assessment model comparison studies that
-use the IIASA Scenario infrastructure.
-As part of the Scenario Submission process, **nomenclature** is used to perform
-three tasks:
+The |nomenclature| is a Python package developed by the |ScSe team|. It is a key part
+of the scenario submission process for projects that use the IIASA scenario database
+infrastructure.
 
-1. Management of the standard language used to define codelists ("definitions")
-2. Processing of configuration files for model-comparison projects
-3. Fata processing workflows
+In the scenario submission process, :class:`nomenclature` is used to perform three tasks:
 
-  - Input data validation against codelists
-  - Region aggregation based on information given in model mappings
+1. Management of the variables and regions (a.k.a. "codelists") used in a project
+2. Processing of configuration files
+3. Data processing workflows
+
+   - Validation of submitted scenario data against codelists
+   - Region aggregation from model-native regions to common (aggregate) regions
 
 The three parts of the processing workflow: codelists, model mappings and the actual
 processing code are usually hosted in a GitHub repository.
@@ -43,18 +43,20 @@ The top-level function ``process`` takes both of the above classes as input alon
 with data in form of a ``pyam.IamDataFrame``. The input data is aggregated using
 the RegionProcessor and validated using DataStructureDefinition.
 
-.. tip::
-
-  To read about the nomenclature classes and functions, see the official package
-  documentation, at `nomenclature-iamc.readthedocs.io <https://nomenclature-iamc.readthedocs.io>`_.
-
 To learn more about each step in-depth, please see the guides below:
 
 .. toctree::
    :maxdepth: 1
 
-   nomenclature/codelist
-   nomenclature/config
    nomenclature/directory-structure
-   nomenclature/scenario-workflow
+   nomenclature/config
+   nomenclature/codelist
+   nomenclature/variable-codelist
+   nomenclature/region-codelist
    nomenclature/model-mappings
+   nomenclature/scenario-workflow
+
+.. tip::
+
+  Learn more about the :class:`nomenclature` package at
+  https://nomenclature-iamc.readthedocs.io.

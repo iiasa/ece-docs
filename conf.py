@@ -88,6 +88,14 @@ rst_prolog = """
    <a href="https://software.ece.iiasa.ac.at">Scenario Services and Scientific Software team</a> 
    in the <em>Energy, Climate, and Environment</em> program (ECE) at IIASA
 
-.. |nomenclature| replace:: :class:`nomenclature` package (`read the docs <https://nomenclature-iamc.readthedocs.io>`_) 
+.. |nomenclature| raw:: html
+    
+   <code class="xref py py-class docutils literal notranslate"><span class="pre">nomenclature</span></code> 
+   package (<a href="https://nomenclature-iamc.readthedocs.io">read the docs</a>)
+
+.. |pyam| raw:: html
+    
+   <code class="xref py py-class docutils literal notranslate"><span class="pre">pyam</span></code> 
+   package (<a href="https://pyam-iamc.readthedocs.io">read the docs</a>)
 
 """
