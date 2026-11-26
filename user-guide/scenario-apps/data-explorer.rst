@@ -8,8 +8,9 @@ charts. With this tool, it is possible to:
 
 - view data according to their original geographical resolution
 - create, save, edit, and share workspaces
-- visualise data in line 
-- customise the chart visualizations with 
+- visualise data in line charts, bar charts, and tables
+- customise chart visualizations with options for chart type, time range, stacking,
+  grouping, and highlighting
 
 The Map Explorer can be broken down into three main components:
 
@@ -26,8 +27,8 @@ Data Selection
 
    The Data Selection menu.
 
-The data selection has three sections, where you select |region| regions,
-|variable| variables, and |model| |scenario| model/scenario combinations.
+The data selection has three sections, where you select |variable| variables,
+|region| regions, and |model| |scenario| model/scenario combinations.
 Available selections are updated when each data filter is selected to only include
 combinations for which data is available.
 

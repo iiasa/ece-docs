@@ -73,7 +73,8 @@ for connecting to a platform and executing other requests.
     # Get a table of all IAMC variables
     platform.iamc.variables.tabulate()
 
-To learn more about scenario runs, see `future link here`_.
+To learn more about scenario runs, see the
+`ixmp4 documentation <https://docs.ece.iiasa.ac.at/projects/ixmp4>`_.
 
 .. _legacy:
 

@@ -24,9 +24,9 @@ As an example, in the openENTRANCE project (`github.com/openENTRANCE/openentranc
 ``definitions/`` and ``mappings/`` folders which contain codelists and model mappings,
 and ``workflow.py`` which contains the processing code using nomenclature.
 
-The validation and region-processing for a specific can be run locally by any user. In
-order to do so, the corresponding GitHub repository needs to be cloned, nomenclature
-installed and the ``main`` function in ``workflow.py`` be given a
+The validation and region-processing workflow for a specific scenario can be run locally
+by any user. In order to do so, the corresponding GitHub repository needs to be cloned,
+nomenclature installed and the ``main`` function in ``workflow.py`` be given a
 :class:`pyam.IamDataFrame` of the model data as input.
 
 When working with nomenclature, there are two main classes that the user interacts with,
