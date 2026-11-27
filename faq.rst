@@ -9,7 +9,7 @@ General questions
 .. rubric:: Why are there different *Scenario Explorers* for specific projects?
 
 Each project brings together different consortium partners, focuses on a different
-research question, and uses aproject-specific list of variable and regions
+research question, and uses a project-specific list of variables and regions
 (see :ref:`project-templates`).
 
 It is therefore easier to keep projects separate, with its own database platform,

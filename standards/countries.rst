@@ -37,6 +37,13 @@ country-names and easily translate between country names and alpha-3/alpha-2 cod
   alpha_3 = countries.get(name="...").alpha_3
   alpha_2 = countries.get(name="...").alpha_2
 
+Related software tools
+----------------------
+
+.. tip::
+
+  Learn more about the :class:`nomenclature` package and other related :ref:`software`.
+
 .. _`ISO 3166-1 standard`: https://en.wikipedia.org/wiki/ISO_3166-1
 
 .. _GitHub: https://github.com/IAMconsortium/nomenclature/blob/main/nomenclature/countries.py
